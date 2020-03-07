@@ -10,10 +10,15 @@ Within the file "code" it is possible to run the following files:
 - train_cnn.py: some template code for how to train the network
 
 
+- model.py: contains the entire network layout 
+- dataloader.py: contains pseudo code for loading and acessing the data in batches
+- mainV2.py: training code that implements the above two  and trains over multiple epochs
+
+
 # To do
  - [ ] Work out template code for us to build on
   - - [x] Implement CNN as proposed in the document
-  - - [ ] Implement final fully connected linear layer
+  - - [x] Implement final fully connected linear layer
   - - [ ] Output now is a 2d vector, labels are scalar, need to convert using dataloader
  - [ ] Figure out a solution for the different sequence lengths
   - - [ ] possible: gene2vec
