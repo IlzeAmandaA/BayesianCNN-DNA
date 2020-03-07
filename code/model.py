@@ -18,9 +18,9 @@ class AttentionNetwork(nn.Module):
         #transform the data using a CNN
         self.transformer_part1 =nn.Sequential(
             #here pass the CNN settings
-            nn.Conv1d()
-            .. .
-            ...
+            # nn.Conv1d()
+            # .. .
+            # ...
 
         )
 
