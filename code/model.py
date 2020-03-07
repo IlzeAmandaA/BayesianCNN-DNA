@@ -17,16 +17,16 @@ class AttentionNetwork(nn.Module):
 
         #transform the data using a CNN
         self.transformer_part1 =nn.Sequential(
-            #here pass the CNN settings
-            # nn.Conv1d()
-            # .. .
-            # ...
-
-        )
+            nn.Conv1d(1,10,kernel_size=11, stride=1, padding=1),  #second number specifies output chanels
+            # here implement a dropout
+            nn.ReLU(),
+            nn.MaxPool1d(2, stride=2), #the paper has globablmax pooling
+            #here implement a dropout
+        ) #hence here the output will be [1, 10, z] where z will vary depending on the input gene length
 
         #
         self.transformer_part2 = nn.Sequential(
-            nn.Linear('mattch with output of part1', self.L),
+            nn.Linear('matched with output of the cnn', self.L),
             nn.ReLU()
         )
 
@@ -46,18 +46,28 @@ class AttentionNetwork(nn.Module):
 
     def forward(self, x):
         #check input dimensions
-        print('Input dim', x.shape)
+        print('Input dim', x.shape) #pass the first bag (person)
+        # perhaps have to pass a dict, as matrix would not work with different dim
 
-        #tranform the input if needed
-        #x=x.squeeze(0)
+        #then loop over the genes  for a person
+        #where each gene of shape 1x1xlen pass into the tranformer
+        all_genes=[]
+        for i,gene in enumerate(genes):
+            H = self.transformer_part1(gene)
+            #check output dimensions
+            print('H dim', H.shape)
+            self.input_lin = H.shape[2] #get out the last dim (that varies)
+            #drop the frist dimension
+            H.view(-1, self.input_lin)
 
-        H = self.transformer_part1(x)
-        #check output dimensions
-        print('H dim', H.shape)
-        #tranform if necessary H.view(-1, 50*4*4)
-        H = self.transformer_part2(H)
+            #so the question woule be, do we create a tranformer part 2 unique for each gene
+            H = self.transformer_part2(H)
+            all_genes.append(H)
+        all_genes = torch.stack(all_genes)
+        print('Check the all genes dimensions', all_genes.shape)
 
-        A = self.attention(H)
+
+        A = self.attention(all_genes)
         #check output dimensions of A
         print('A dim', A.shape)
         #transform if needed A = torch.transpose(A, 1,0)
