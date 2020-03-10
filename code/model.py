@@ -13,24 +13,26 @@ class AttentionNetwork(nn.Module):
         self.L=500
         self.D=128
         self.K=1 #final output dimension
+        self.number_of_genes=50*20
+
 
 
 
         #transform the data using a CNN
         self.transformer_part1 =nn.Sequential(
-            nn.Conv1d(1,10,kernel_size=11, stride=1, padding=1),  #second number specifies output chanels
+            nn.Conv1d(4,10,kernel_size=11, stride=1, padding=1),  #second number specifies output chanels
             # here implement a dropout
             nn.ReLU(),
             nn.MaxPool1d(2, stride=2), #the paper has globablmax pooling
             # #here implement a dropout
-            nn.Conv1d(20,50, kernel_size=11, stride=1),
+            nn.Conv1d(10,50, kernel_size=11, stride=1),
             #implementd dropput
             nn.ReLU()
         ) #hence here the output will be [1, 10, z] where z will vary depending on the input gene length
 
         #
         self.transformer_part2 = nn.Sequential(
-            nn.Linear('matched with output of the cnn', self.L),
+            nn.Linear(self.number_of_genes, self.L), #has to be match with kmax pooling #now only owrking with 10 genes
             nn.ReLU()
         )
 
@@ -54,34 +56,40 @@ class AttentionNetwork(nn.Module):
 
     def forward(self, x):
         #check input dimensions
-        print('Input dim', x.shape) #pass the first bag (person)
+     #   print('Input dim', x.shape) #pass the first bag (person)
 
         ### still would have to pass gene by gene
         # due to difference in len (cannot store in a matrix)
         stack_genes=[]
-        for gene in x:
+        for key,gene in x.items():
+            # print('gene shape', gene.shape)
+            gene = gene.permute(1,0)
+            gene = gene.unsqueeze(0)
+            # print('gene transformed', gene.shape)
             H = self.transformer_part1(gene)
+            # print('H', H.shape)
             H = self.kmax_pooling(H,dim=2, k=20)
-            print('dim after kmax pooling ', H.shape)
-            stack_genes.append(H)
+            # print('dim after kmax pooling ', H.shape)
+            stack_genes.append(H.squeeze(0))
 
         stack_genes = torch.stack(stack_genes)
             #check output dimensions
 
-        print('all genes dim', stack_genes.shape)
+        # print('all genes dim', stack_genes.shape)
         #need to reshape here
-        stack_genes = stack_genes.view(-1, stack_genes.shape[1]*stack_genes.shape[2])
+        stack_genes = stack_genes.view(-1, stack_genes.shape[1]*stack_genes.shape[2]) #50 * 20
         #result should be genes x embedding
-        print('Tranfored stack genes:', stack_genes.shape)
+        # print('Tranfored stack genes:', stack_genes.shape)
 
         H = self.transformer_part2(stack_genes)
+        # print('H shape one representation', H.shape)
 
 
 
         A = self.attention(H)
         #check output dimensions of A
-        print('A dim', A.shape)
-        #transform if needed A = torch.transpose(A, 1,0)
+        # print('A dim', A.shape)
+        A = torch.transpose(A, 1,0)
         A=F.softmax(A, dim=1) #over the second dimension as one to extract value for each feature
 
         #apply attention to the created embeddings
@@ -89,12 +97,12 @@ class AttentionNetwork(nn.Module):
 
         #pass the created embedding to the classifier
         Y_prob = self.classifier(M)
+        # print('y probability', Y_prob)
         Y_hat = torch.ge(Y_prob, 0.5).float() #transform to 0 or 1  float
 
         return Y_prob, Y_hat, A
 
     def calculate_objective(self, X, Y):
-        Y = Y.float()
         Y_prob, _, A = self.forward(X)
         Y_prob = torch.clamp(Y_prob, min=1e-5, max=1.-1e-5)
         neg_log_likelihood = -1. * (Y * torch.log(Y_prob) + (1. - Y) * torch.log(1. - Y_prob))  # negative log bernoulli

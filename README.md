@@ -14,6 +14,8 @@ Within the file "code" it is possible to run the following files:
 - dataloader.py: contains pseudo code for loading and acessing the data in batches
 - mainV2.py: training code that implements the above two  and trains over multiple epochs
 
+- mainV3.py: contains the correct code for the newest update of the model
+
 #data
 In folder data you can find simulation data for 10 participants. The odd numbers are participants of class 1, with even class 0. 
 Each participant has 10 genes, where the genes have the corresponding lengths: 25371, 47403, 84652, 33735, 30161, 2981, 18542, 98821, 32189, 79099
