@@ -72,6 +72,7 @@ print(gene, label)
 # 	-Implement appropiate padding
 # 	- See how the data holds on a CPU
 #	- is gene1: seq the final representation of the data?
+# 	- Question: load all data at once or go over it file by file, does this matter for the dataloader
 
 
 
