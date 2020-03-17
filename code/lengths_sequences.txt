@@ -1,0 +1,2941 @@
+File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr1 with sequence length: 35729 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr5 with sequence length: 31315 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr8 with sequence length: 142192 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr10 with sequence length: 32137 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr15 with sequence length: 98825 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr13 with sequence length: 18299 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs0.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr1 with sequence length: 47414 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr5 with sequence length: 41888 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr8 with sequence length: 97389 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr10 with sequence length: 33742 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr15 with sequence length: 98846 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr13 with sequence length: 30179 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs1.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr1 with sequence length: 47427 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr5 with sequence length: 41956 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr8 with sequence length: 142182 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr15 with sequence length: 71651 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr13 with sequence length: 18299 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs10.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr1 with sequence length: 47419 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr8 with sequence length: 91752 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr15 with sequence length: 98850 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs100.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr8 with sequence length: 97407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr10 with sequence length: 33744 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr15 with sequence length: 71654 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr13 with sequence length: 30174 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs101.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr8 with sequence length: 97386 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr15 with sequence length: 98836 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs102.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr8 with sequence length: 81114 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr15 with sequence length: 98861 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs103.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr8 with sequence length: 142171 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr10 with sequence length: 33741 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr15 with sequence length: 52835 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs104.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr8 with sequence length: 91761 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr15 with sequence length: 98858 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs105.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr1 with sequence length: 47409 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr5 with sequence length: 41943 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr8 with sequence length: 97416 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr15 with sequence length: 98844 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs106.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr9 with sequence length: 30145 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr5 with sequence length: 41880 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr8 with sequence length: 96229 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr10 with sequence length: 33742 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr15 with sequence length: 98835 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs107.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr1 with sequence length: 35729 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr5 with sequence length: 42034 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr8 with sequence length: 97388 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr10 with sequence length: 22837 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr15 with sequence length: 98867 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs108.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr8 with sequence length: 97388 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr15 with sequence length: 98837 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr13 with sequence length: 18297 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs109.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr5 with sequence length: 41951 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr8 with sequence length: 81116 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr10 with sequence length: 33735 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr15 with sequence length: 98842 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr13 with sequence length: 30195 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs11.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr5 with sequence length: 37836 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr8 with sequence length: 142206 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr15 with sequence length: 98863 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr9 with sequence length: 7346 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr13 with sequence length: 30180 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs110.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr8 with sequence length: 97387 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs111.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr8 with sequence length: 91765 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr10 with sequence length: 33741 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr15 with sequence length: 98862 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs112.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr8 with sequence length: 128115 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr15 with sequence length: 98842 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs113.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr5 with sequence length: 42030 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr8 with sequence length: 109263 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr13 with sequence length: 30181 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs114.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr8 with sequence length: 142213 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs115.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr1 with sequence length: 47420 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr5 with sequence length: 41889 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr8 with sequence length: 92188 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr10 with sequence length: 33744 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr15 with sequence length: 98828 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs116.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr5 with sequence length: 41952 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr8 with sequence length: 97387 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr1 with sequence length: 25373 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr10 with sequence length: 22839 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr15 with sequence length: 98841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs117.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr8 with sequence length: 109314 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr1 with sequence length: 25381 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr10 with sequence length: 33743 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr15 with sequence length: 98825 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs118.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr1 with sequence length: 35729 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr8 with sequence length: 97415 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr15 with sequence length: 98860 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs119.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr5 with sequence length: 41943 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr8 with sequence length: 128103 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr15 with sequence length: 98828 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr9 with sequence length: 7346 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs12.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr8 with sequence length: 97396 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs120.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr9 with sequence length: 30151 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr1 with sequence length: 47413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr8 with sequence length: 141068 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr15 with sequence length: 98841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr13 with sequence length: 10464 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs121.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr8 with sequence length: 110599 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr15 with sequence length: 98836 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs122.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr8 with sequence length: 96237 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr15 with sequence length: 98840 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr9 with sequence length: 7359 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr13 with sequence length: 18297 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs123.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr1 with sequence length: 35729 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr8 with sequence length: 46649 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr15 with sequence length: 98843 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr9 with sequence length: 3828 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs124.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr1 with sequence length: 47408 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr5 with sequence length: 41953 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr8 with sequence length: 128119 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr10 with sequence length: 33744 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr15 with sequence length: 98844 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs125.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr5 with sequence length: 42034 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr8 with sequence length: 110614 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr15 with sequence length: 98859 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs126.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr5 with sequence length: 41897 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr8 with sequence length: 142203 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr15 with sequence length: 98849 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr13 with sequence length: 30176 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs127.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr8 with sequence length: 91751 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr15 with sequence length: 98832 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr13 with sequence length: 30193 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs128.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr8 with sequence length: 91756 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr1 with sequence length: 25382 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs129.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr5 with sequence length: 41973 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr8 with sequence length: 142196 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr10 with sequence length: 33741 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr13 with sequence length: 18298 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs13.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr8 with sequence length: 142176 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr10 with sequence length: 33742 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr15 with sequence length: 98843 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs130.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr5 with sequence length: 24439 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr8 with sequence length: 89072 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr1 with sequence length: 25373 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr15 with sequence length: 98837 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr13 with sequence length: 30186 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs131.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr5 with sequence length: 41947 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr8 with sequence length: 142205 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr13 with sequence length: 30185 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs132.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr9 with sequence length: 30157 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr1 with sequence length: 47416 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr8 with sequence length: 97393 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr15 with sequence length: 98837 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr9 with sequence length: 7346 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr13 with sequence length: 18294 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs133.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr5 with sequence length: 41889 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr8 with sequence length: 96246 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr15 with sequence length: 17897 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr13 with sequence length: 30185 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs134.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr9 with sequence length: 30150 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr1 with sequence length: 47423 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr8 with sequence length: 109279 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr1 with sequence length: 25373 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr15 with sequence length: 98840 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr9 with sequence length: 7371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs135.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr8 with sequence length: 97395 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr10 with sequence length: 33741 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr15 with sequence length: 98837 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs136.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr9 with sequence length: 30151 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr1 with sequence length: 47027 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr5 with sequence length: 41885 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr8 with sequence length: 97389 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs137.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr5 with sequence length: 41890 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr8 with sequence length: 110596 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr10 with sequence length: 33745 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr15 with sequence length: 98862 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs138.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr8 with sequence length: 128091 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr15 with sequence length: 98835 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs139.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr5 with sequence length: 32466 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr8 with sequence length: 97408 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr10 with sequence length: 33741 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr15 with sequence length: 17892 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr9 with sequence length: 3833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr13 with sequence length: 30176 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs14.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr5 with sequence length: 41953 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr8 with sequence length: 97393 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr15 with sequence length: 98822 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs140.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr9 with sequence length: 30145 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr5 with sequence length: 41947 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr8 with sequence length: 109278 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr15 with sequence length: 98861 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr13 with sequence length: 30181 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs141.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr1 with sequence length: 47418 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr5 with sequence length: 41889 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr8 with sequence length: 142188 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr10 with sequence length: 33736 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr15 with sequence length: 98851 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr13 with sequence length: 30176 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs142.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr1 with sequence length: 35729 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr8 with sequence length: 97418 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr13 with sequence length: 18297 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs143.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr1 with sequence length: 47435 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr5 with sequence length: 41881 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr8 with sequence length: 96244 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr10 with sequence length: 32137 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr15 with sequence length: 98826 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs144.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr1 with sequence length: 47422 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr5 with sequence length: 41947 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr8 with sequence length: 81112 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr15 with sequence length: 98851 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs145.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr1 with sequence length: 47413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr5 with sequence length: 41890 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr8 with sequence length: 89073 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr10 with sequence length: 22839 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr15 with sequence length: 98837 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs146.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr9 with sequence length: 30145 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr1 with sequence length: 47426 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr8 with sequence length: 110598 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr1 with sequence length: 25382 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr15 with sequence length: 98839 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs15.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr8 with sequence length: 109256 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr15 with sequence length: 98859 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs16.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr1 with sequence length: 14236 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr8 with sequence length: 103076 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr15 with sequence length: 98841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs17.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr8 with sequence length: 142199 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr15 with sequence length: 98835 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs18.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr9 with sequence length: 30154 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr5 with sequence length: 42077 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr8 with sequence length: 97411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr10 with sequence length: 22838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr15 with sequence length: 98851 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs19.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr8 with sequence length: 97385 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr15 with sequence length: 98827 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs2.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr5 with sequence length: 31314 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr8 with sequence length: 97387 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr15 with sequence length: 98862 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs20.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr8 with sequence length: 109314 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr15 with sequence length: 98848 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs21.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr8 with sequence length: 97390 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr15 with sequence length: 52835 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs22.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr5 with sequence length: 31314 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr8 with sequence length: 97403 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr10 with sequence length: 33742 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr15 with sequence length: 98862 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs23.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr9 with sequence length: 24438 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr8 with sequence length: 96233 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr13 with sequence length: 18299 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs24.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr8 with sequence length: 142162 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr15 with sequence length: 98831 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs25.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr5 with sequence length: 41951 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr8 with sequence length: 97404 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr15 with sequence length: 52837 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs26.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr5 with sequence length: 42005 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr8 with sequence length: 109261 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr15 with sequence length: 98842 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs27.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr5 with sequence length: 42077 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr8 with sequence length: 97392 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr15 with sequence length: 98836 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs28.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr9 with sequence length: 30153 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr8 with sequence length: 128119 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr13 with sequence length: 18299 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs29.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr1 with sequence length: 36465 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr8 with sequence length: 91763 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr15 with sequence length: 21224 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs3.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr5 with sequence length: 41883 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr8 with sequence length: 97384 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr15 with sequence length: 98832 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs30.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr9 with sequence length: 24440 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr1 with sequence length: 47418 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr8 with sequence length: 97393 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs31.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr5 with sequence length: 36274 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr8 with sequence length: 142175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr15 with sequence length: 98828 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr13 with sequence length: 18297 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs32.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr1 with sequence length: 47418 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr5 with sequence length: 41992 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr8 with sequence length: 97399 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr15 with sequence length: 98828 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr13 with sequence length: 18298 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs33.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr1 with sequence length: 47418 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr8 with sequence length: 91751 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr15 with sequence length: 98847 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs34.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr1 with sequence length: 47427 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr5 with sequence length: 41943 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr8 with sequence length: 97393 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr10 with sequence length: 22840 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr15 with sequence length: 98843 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs35.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr5 with sequence length: 41986 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr8 with sequence length: 142193 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr15 with sequence length: 98836 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr13 with sequence length: 18298 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs36.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr5 with sequence length: 41885 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr8 with sequence length: 103097 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr15 with sequence length: 98840 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr9 with sequence length: 7382 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr13 with sequence length: 18295 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs37.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr8 with sequence length: 89079 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr15 with sequence length: 98841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs38.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr1 with sequence length: 47435 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr5 with sequence length: 42028 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr8 with sequence length: 103076 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr15 with sequence length: 98849 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs39.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr8 with sequence length: 91752 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr15 with sequence length: 98831 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs4.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr8 with sequence length: 103062 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr15 with sequence length: 21224 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs40.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr1 with sequence length: 47414 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr5 with sequence length: 42081 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr8 with sequence length: 142191 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr15 with sequence length: 98850 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr13 with sequence length: 30187 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs41.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr5 with sequence length: 41888 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr8 with sequence length: 96248 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr15 with sequence length: 98848 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs42.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr1 with sequence length: 47417 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr5 with sequence length: 41968 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr8 with sequence length: 97396 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr15 with sequence length: 98864 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs43.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr1 with sequence length: 47413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr5 with sequence length: 24442 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr8 with sequence length: 103077 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs44.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr8 with sequence length: 91750 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr15 with sequence length: 98861 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr13 with sequence length: 30187 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs45.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr5 with sequence length: 41889 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr8 with sequence length: 97397 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr15 with sequence length: 98844 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs46.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr5 with sequence length: 41888 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr8 with sequence length: 91762 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr15 with sequence length: 98868 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr9 with sequence length: 7351 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs47.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr5 with sequence length: 41886 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr8 with sequence length: 97413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr1 with sequence length: 25378 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr15 with sequence length: 98831 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr9 with sequence length: 7352 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs48.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr8 with sequence length: 142196 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr15 with sequence length: 98835 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr9 with sequence length: 7362 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr13 with sequence length: 30176 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs49.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr1 with sequence length: 47417 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr8 with sequence length: 97393 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr15 with sequence length: 98864 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr13 with sequence length: 30187 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs5.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr8 with sequence length: 97389 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr15 with sequence length: 98841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr13 with sequence length: 30176 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs50.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr5 with sequence length: 41942 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr8 with sequence length: 142154 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr10 with sequence length: 33741 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr15 with sequence length: 98857 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr13 with sequence length: 30185 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs51.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr1 with sequence length: 47417 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr8 with sequence length: 97417 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr10 with sequence length: 32137 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr15 with sequence length: 98844 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs52.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr1 with sequence length: 47027 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr5 with sequence length: 41943 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr8 with sequence length: 109252 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs53.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr5 with sequence length: 41948 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr8 with sequence length: 142173 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr15 with sequence length: 98845 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs54.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr5 with sequence length: 41883 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr8 with sequence length: 110609 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr10 with sequence length: 33736 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr13 with sequence length: 18297 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs55.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr5 with sequence length: 42030 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr8 with sequence length: 142196 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr15 with sequence length: 98843 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs56.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr1 with sequence length: 47410 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr8 with sequence length: 97407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr15 with sequence length: 98841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr13 with sequence length: 30181 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs57.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr9 with sequence length: 30151 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr5 with sequence length: 41887 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr8 with sequence length: 97400 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr15 with sequence length: 98848 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs58.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr9 with sequence length: 30145 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr1 with sequence length: 47407 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr8 with sequence length: 91750 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr15 with sequence length: 98841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr13 with sequence length: 30179 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs59.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr5 with sequence length: 41889 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr8 with sequence length: 97390 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr9 with sequence length: 7352 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs6.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr1 with sequence length: 47417 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr5 with sequence length: 41883 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr8 with sequence length: 97403 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr15 with sequence length: 98847 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr13 with sequence length: 18298 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs60.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr1 with sequence length: 47417 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr5 with sequence length: 41952 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr8 with sequence length: 97386 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr15 with sequence length: 98862 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs61.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr5 with sequence length: 41941 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr8 with sequence length: 110613 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr15 with sequence length: 52841 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr9 with sequence length: 7360 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs62.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr1 with sequence length: 47413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr8 with sequence length: 97389 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr15 with sequence length: 98843 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs63.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr9 with sequence length: 24438 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr8 with sequence length: 91758 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr15 with sequence length: 98876 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs64.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr8 with sequence length: 128105 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr15 with sequence length: 98860 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs65.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr1 with sequence length: 47435 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr8 with sequence length: 97405 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr15 with sequence length: 98853 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs66.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr5 with sequence length: 41943 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr8 with sequence length: 97380 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr15 with sequence length: 98822 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs67.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr1 with sequence length: 47440 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr5 with sequence length: 41886 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr8 with sequence length: 97393 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr1 with sequence length: 25373 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr15 with sequence length: 98859 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs68.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr5 with sequence length: 41883 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr8 with sequence length: 103075 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr15 with sequence length: 98832 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr13 with sequence length: 30185 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs69.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr5 with sequence length: 41943 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr8 with sequence length: 142170 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr15 with sequence length: 98844 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs7.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr5 with sequence length: 41954 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr8 with sequence length: 89074 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs70.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr5 with sequence length: 41885 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr8 with sequence length: 142189 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr15 with sequence length: 98838 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs71.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr8 with sequence length: 128103 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr15 with sequence length: 98827 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs72.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr8 with sequence length: 91752 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr15 with sequence length: 98855 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr13 with sequence length: 30189 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs73.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr8 with sequence length: 103096 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr15 with sequence length: 98840 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr9 with sequence length: 7388 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr13 with sequence length: 18295 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs74.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr1 with sequence length: 35729 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr5 with sequence length: 41932 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr8 with sequence length: 109257 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr15 with sequence length: 98843 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs75.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr9 with sequence length: 24437 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr5 with sequence length: 41883 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr8 with sequence length: 142230 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr15 with sequence length: 98849 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr13 with sequence length: 18297 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs76.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr9 with sequence length: 30145 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr5 with sequence length: 41951 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr8 with sequence length: 109262 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr15 with sequence length: 71635 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr9 with sequence length: 7356 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs77.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr1 with sequence length: 35729 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr5 with sequence length: 41895 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr8 with sequence length: 142194 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr15 with sequence length: 98850 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs78.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr9 with sequence length: 30146 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr5 with sequence length: 41883 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr8 with sequence length: 97409 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr15 with sequence length: 98869 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs79.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr5 with sequence length: 41882 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr8 with sequence length: 96236 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr15 with sequence length: 98834 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr13 with sequence length: 18298 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs8.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr1 with sequence length: 47435 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr5 with sequence length: 41894 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr8 with sequence length: 58641 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr10 with sequence length: 33741 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr15 with sequence length: 98834 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr9 with sequence length: 7352 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs80.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr1 with sequence length: 47430 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr5 with sequence length: 41946 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr8 with sequence length: 97388 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr15 with sequence length: 98861 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr13 with sequence length: 30183 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs81.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr5 with sequence length: 41949 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr8 with sequence length: 79414 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr10 with sequence length: 33742 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr15 with sequence length: 17892 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr9 with sequence length: 7346 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs82.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr5 with sequence length: 41882 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr8 with sequence length: 97392 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr15 with sequence length: 98846 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr9 with sequence length: 3828 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs83.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr1 with sequence length: 47417 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr5 with sequence length: 41882 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr8 with sequence length: 97424 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr15 with sequence length: 98842 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr13 with sequence length: 30180 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs84.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr5 with sequence length: 41883 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr8 with sequence length: 128104 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr15 with sequence length: 98846 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr13 with sequence length: 18296 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs85.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr1 with sequence length: 47413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr5 with sequence length: 24444 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr8 with sequence length: 103074 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs86.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr5 with sequence length: 41950 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr8 with sequence length: 97406 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr15 with sequence length: 98835 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr9 with sequence length: 7357 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs87.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr9 with sequence length: 24833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr1 with sequence length: 47414 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr5 with sequence length: 41956 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr8 with sequence length: 109262 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr15 with sequence length: 98840 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs88.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr1 with sequence length: 47413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr5 with sequence length: 41987 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr8 with sequence length: 91752 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr15 with sequence length: 98830 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs89.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr1 with sequence length: 47418 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr5 with sequence length: 41979 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr8 with sequence length: 110571 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr1 with sequence length: 25371 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr15 with sequence length: 98839 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr9 with sequence length: 7394 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs9.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr5 with sequence length: 41993 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr8 with sequence length: 142206 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr10 with sequence length: 33742 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr15 with sequence length: 98845 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr9 with sequence length: 7352 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs90.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr9 with sequence length: 30152 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr1 with sequence length: 47412 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr5 with sequence length: 41884 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr8 with sequence length: 110606 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr10 with sequence length: 33738 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr15 with sequence length: 98833 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr13 with sequence length: 30195 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs91.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr8 with sequence length: 91755 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr10 with sequence length: 33739 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr15 with sequence length: 98839 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs92.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr9 with sequence length: 30144 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr1 with sequence length: 47421 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr5 with sequence length: 41945 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr8 with sequence length: 110603 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr15 with sequence length: 17892 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr13 with sequence length: 30194 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs93.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr1 with sequence length: 47429 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr5 with sequence length: 41920 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr8 with sequence length: 96220 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr15 with sequence length: 98864 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs94.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr9 with sequence length: 30149 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr1 with sequence length: 47408 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr8 with sequence length: 142217 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr15 with sequence length: 98826 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr9 with sequence length: 7356 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr13 with sequence length: 30177 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs95.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr9 with sequence length: 30143 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr1 with sequence length: 47413 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr5 with sequence length: 41992 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr8 with sequence length: 110577 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr1 with sequence length: 25372 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr15 with sequence length: 98839 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr9 with sequence length: 7352 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr13 with sequence length: 30175 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs96.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr9 with sequence length: 30148 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr1 with sequence length: 47422 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr5 with sequence length: 41944 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr8 with sequence length: 128101 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr10 with sequence length: 33740 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr15 with sequence length: 98843 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr9 with sequence length: 7376 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr13 with sequence length: 18298 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs97.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr9 with sequence length: 30145 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr1 with sequence length: 47422 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr5 with sequence length: 41882 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr8 with sequence length: 97384 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr1 with sequence length: 25370 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr15 with sequence length: 98840 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr9 with sequence length: 3828 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr13 with sequence length: 30189 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs98.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr9 with sequence length: 30147 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr1 with sequence length: 47411 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr5 with sequence length: 24439 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr8 with sequence length: 97419 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr1 with sequence length: 25373 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr10 with sequence length: 33737 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr15 with sequence length: 98847 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr9 with sequence length: 7345 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr13 with sequence length: 30178 
+--------File: C:\Users\laure\OneDrive\Desktop\cnn-data\wgs99.txt 
+Current chrom: chr19 with sequence length: 8454 
+--------

@@ -8,7 +8,7 @@ filepath = 'll'
 dataset = Dataset(filepath)
 data_loader = DataLoader(dataset, batch_size=1, shuffle=True)
 model = AttentionNetwork()
-optimizer = optim.Adam(model.parameters(), lr=0.01, betas=(0.9, 0.999), weight_decay=args.reg)
+optimizer = optim.Adam(model.parameters(), lr=0.01, betas=(0.9, 0.999), weight_decay=1e-04)
 
 
 def train():
@@ -22,7 +22,6 @@ def train():
             # if args.cuda:
             #     data, bag_label = data.cuda(), bag_label.cuda()
             data, bag_label = Variable(data), Variable(bag_label)
-
             # reset gradients
             optimizer.zero_grad()
             # calculate loss and metrics
