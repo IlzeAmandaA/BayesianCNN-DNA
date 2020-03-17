@@ -31,6 +31,19 @@ class AttentionNetwork(nn.Module):
             nn.Dropout(p=0.5)
         )
 
+        self.attention_V = nn.Sequential(
+            nn.Linear(self.L, self.D),
+            nn.Tanh()
+        )
+
+        self.attention_U = nn.Sequential(
+            nn.Linear(self.L, self.D),
+            nn.Sigmoid()
+        )
+
+        self.attention_weights = nn.Linear(self.D, self.K)
+
+
         #estiamte the attention weights
         self.attention = nn.Sequential(
             nn.Linear(self.L, self.D),
@@ -57,7 +70,12 @@ class AttentionNetwork(nn.Module):
         #pass to the linear tranforamtion
         H = self.transformer_part2(H)
 
-        A = self.attention(H)
+        A_V = self.attention_V(H)
+        A_U = self.attention_U(H)
+
+        A = self.attention_weights(A_V * A_U) #element wise multiplication
+
+     #   A = self.attention(H)
         A = torch.transpose(A, 1,0)
         A=F.softmax(A, dim=1)
 

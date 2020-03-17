@@ -1,6 +1,6 @@
 from code.modelV2 import AttentionNetwork
-from code.dataloader import Dataset
-from torch.utils.data import DataLoader
+# from code.dataloader import Dataset
+# from torch.utils.data import DataLoader
 from torch import optim
 from torch.autograd import Variable
 import os
@@ -55,7 +55,6 @@ def train():
         for i in tqdm(range(100)):
             genes = torch.randint(0,2,(20,4,2000))
             label = sample_label.sample()
-            print(label.shape)
             # reset gradients
             optimizer.zero_grad()
             # calculate loss and metrics
