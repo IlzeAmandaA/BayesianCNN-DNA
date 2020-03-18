@@ -49,9 +49,11 @@ def importData(filepath, to_write = True):
             n = text_file.write(f"File: {filepath} \n")
             n = text_file.write(f"Current chrom: {chrom} with sequence length: {str(len(seq))} \n")
             n = text_file.write(f"--------")
+
         genes[chrom] = DNA_to_onehot(seq)
     if to_write:
         text_file.close()
+        print(f'min length = {min_len} and max_length = {max_length}')
     return genes, label
 
 def print_shapes(genes):
@@ -80,38 +82,52 @@ def set_up_tensors(genes):
     chroms = ['chr5','chr8', 'chr5','chr10', 'chr13','chr5', 'chr19']
     data_tensor = genes['chr1'].unsqueeze(dim=0) #removed chr1 from the whole set of chrs
     for chrm in chroms:
-        #print("shape of current data_tensor: ", data_tensor.shape)
-        #print("shape of current chromosome", genes[chrm].shape)
         data_tensor = torch.cat(([data_tensor, genes[chrm].unsqueeze(dim=0)]), dim = 0)
-        print("shape of current all data_tensor: ", data_tensor.shape) # should be [gene, emb, n_bp] = [9,4,142231]
     return data_tensor
 
-def set_up_data(filepath):
+def convert_labels_scalar_to_vector(labels):
+    all_labels = np.zeros((len(labels), 2))
+    for index, label in enumerate(labels):
+        all_labels[index][label] = 1
+    return torch.from_numpy(all_labels).float()
+
+def set_up_data(filepath, n, print_boo = True):
     """
         Creates two dicts: {"filename": matrix}, {"filename": label} 
     """
     all_data = {}
     all_files = obtain_all_files(filepath)
+    first_iteration = True
+
+    labels = []
+
     counter = 0
+    if print_boo:
+        print("==== Loading data ====")
+
     for file in all_files:
+        if print_boo:
+            print(f"Current file: {file}")
+
+        if counter == n:
+            break
+        counter += 1
         genes, label = importData(file, to_write = False)
-        data_tensor = set_up_tensors(genes)
-        #print("shape of tensor per file: ", data_tensor.shape)
-        #print_shapes(genes)
-        #print(len(genes.items()))
-   
+
+        labels.append(label)
+        if first_iteration:
+            data_tensor = set_up_tensors(genes).unsqueeze(dim = 0)
+            first_iteration = False
+        else:
+            data = set_up_tensors(genes).unsqueeze(dim = 0)
+            data_tensor = torch.cat(([data_tensor, data]), dim = 0)
+
+        #print(data_tensor.shape)
+    if print_boo:
+        print("==== Finished loading data ====")
+    label_tensor = convert_labels_scalar_to_vector(labels)
+    return data_tensor, label_tensor
 
 
 
-"""
-filepath_wgs0 = "C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data\\wgs0.txt"
-genes, label = importData(filepath_wgs0)
-print_shapes(genes)
 
-
-all_file_paths = obtain_all_files(filepath)
-
-print(all_file_paths)"""
-
-filepath = "C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
-set_up_data(filepath)
