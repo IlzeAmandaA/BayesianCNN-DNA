@@ -30,7 +30,7 @@ filepath = "C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
 
 print_boo = True #set this to false if you don't want print statements
 n_examples = 999 #set this to any N to get N examples, if you go above the max (148) then it will just give all examples
-seed = 0 #this is a seed for reproducibility
+seed = 0 #this is a seed for reproducibility 
 
 DNA_dataset = Dataset(filepath, n_examples, print_boo) #create Dataset
 idx_shuffle = DNA_dataset.get_random_shuffle(seed) #get a random shuffle for cross validation, do this K times
@@ -42,4 +42,3 @@ for i in idx_shuffle:
 	x = x.to(device)
 	y = y.to(device)
 	print(x.shape, y.shape)
-
