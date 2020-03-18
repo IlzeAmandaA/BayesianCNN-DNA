@@ -58,7 +58,7 @@ def importData(filepath, to_write = True):
         genes[chrom] = DNA_to_onehot(seq)
     if to_write:
         text_file.close()
-        print(f'min length = {min_len} and max_length = {max_length}')
+        # print(f'min length = {min_len} and max_length = {max_length}')
     return genes, label
 
 def print_shapes(genes):
