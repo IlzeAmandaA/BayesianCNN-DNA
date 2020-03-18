@@ -4,6 +4,8 @@ import torch
 from sys import getsizeof
 
 look_up = {"A": 0, "G": 1, "T": 2, "C": 3}
+MAX_LENGHT = 142230 #change depending on data
+
 
 """ NOTE:
      The function set_up_tensors
@@ -13,7 +15,7 @@ def DNA_to_onehot(sequence):
     """
         Creates a matrix of size (4, max_seq_length) with only 0 vectors then fills it up accordingly.
     """
-    max_seq_length = 142230 + 1
+    max_seq_length = MAX_LENGHT + 1
     data = np.zeros((4,max_seq_length))
     # print(data.shape)
     for index, letter in enumerate(sequence):
