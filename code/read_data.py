@@ -5,6 +5,9 @@ from sys import getsizeof
 
 look_up = {"A": 0, "G": 1, "T": 2, "C": 3}
 
+""" NOTE:
+     The function set_up_tensors
+"""
 
 def DNA_to_onehot(sequence):
     """
@@ -79,7 +82,7 @@ def set_up_tensors(genes):
     """
         Given a dict of genes, stack them and return them in one big tensor (x_genes, n_embedding, n_sequence)
     """
-    chroms = ['chr5','chr8', 'chr5','chr10', 'chr13','chr5', 'chr19']
+    chroms = ['chr5','chr8', 'chr9','chr10','chr13','chr15','chr19']
     data_tensor = genes['chr1'].unsqueeze(dim=0) #removed chr1 from the whole set of chrs
     for chrm in chroms:
         data_tensor = torch.cat(([data_tensor, genes[chrm].unsqueeze(dim=0)]), dim = 0)
