@@ -61,7 +61,7 @@ def train():
             loss, _ = model.calculate_objective(genes.float(), label)
             train_loss += loss.item()
             error, _ = model.calculate_classification_error(genes.float(), label)
-            # train_error += error
+            train_error += error
             # backward pass
             loss.backward()
             # step
@@ -70,7 +70,7 @@ def train():
 
         # calculate loss and error for epoch
         train_loss /= 100*20
-        # train_error /= len(data_loader)
+        train_error /= len(data_loader)
         print('Epoch: {}, Loss: {:.4f}'.format(epoch, train_loss))
 
 

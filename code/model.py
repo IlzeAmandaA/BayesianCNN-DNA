@@ -17,10 +17,9 @@ class AttentionNetwork(nn.Module):
 
 
 
-
         #transform the data using a CNN
         self.transformer_part1 =nn.Sequential(
-            nn.Conv1d(4,10,kernel_size=11, stride=1, padding=1),  #second number specifies output chanels
+            nn.Conv1d(4,50,kernel_size=11, stride=1, padding=0),  #second number specifies output chanels
             # here implement a dropout
             nn.ReLU(),
             nn.MaxPool1d(2, stride=2), #the paper has globablmax pooling
@@ -62,33 +61,33 @@ class AttentionNetwork(nn.Module):
         # due to difference in len (cannot store in a matrix)
         stack_genes=[]
         for key,gene in x.items():
-            # print('gene shape', gene.shape)
+            print('gene shape', gene.shape)
             gene = gene.permute(1,0)
             gene = gene.unsqueeze(0)
-            # print('gene transformed', gene.shape)
+            print('gene transformed', gene.shape)
             H = self.transformer_part1(gene)
-            # print('H', H.shape)
+            print('H', H.shape)
             H = self.kmax_pooling(H,dim=2, k=20)
-            # print('dim after kmax pooling ', H.shape)
+            print('dim after kmax pooling ', H.shape)
             stack_genes.append(H.squeeze(0))
 
         stack_genes = torch.stack(stack_genes)
             #check output dimensions
 
-        # print('all genes dim', stack_genes.shape)
+        print('all genes dim', stack_genes.shape)
         #need to reshape here
         stack_genes = stack_genes.view(-1, stack_genes.shape[1]*stack_genes.shape[2]) #50 * 20
         #result should be genes x embedding
-        # print('Tranfored stack genes:', stack_genes.shape)
+        print('Tranfored stack genes:', stack_genes.shape)
 
         H = self.transformer_part2(stack_genes)
-        # print('H shape one representation', H.shape)
+        print('H shape one representation (part 2)', H.shape)
 
 
 
         A = self.attention(H)
         #check output dimensions of A
-        # print('A dim', A.shape)
+        print('A dim', A.shape)
         A = torch.transpose(A, 1,0)
         A=F.softmax(A, dim=1) #over the second dimension as one to extract value for each feature
 
@@ -97,7 +96,7 @@ class AttentionNetwork(nn.Module):
 
         #pass the created embedding to the classifier
         Y_prob = self.classifier(M)
-        # print('y probability', Y_prob)
+        print('y probability', Y_prob)
         Y_hat = torch.ge(Y_prob, 0.5).float() #transform to 0 or 1  float
 
         return Y_prob, Y_hat, A

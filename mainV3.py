@@ -71,6 +71,7 @@ def train(filepaths):
             # step
             optimizer.step()
 
+
         # calculate loss and error for epoch
         train_loss /= len(filepaths)*10
         # train_error /= len(data_loader)
