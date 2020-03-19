@@ -51,9 +51,9 @@ def importData(filepath, to_write = True):
 
         if to_write:
             text_file = open("lengths_sequences.txt", "a")
-            n = text_file.write(f"File: {filepath} \n")
-            n = text_file.write(f"Current chrom: {chrom} with sequence length: {str(len(seq))} \n")
-            n = text_file.write(f"--------")
+            text_file.write(f"File: {filepath} \n")
+            text_file.write(f"Current chrom: {chrom} with sequence length: {str(len(seq))} \n")
+            text_file.write(f"--------")
 
         genes[chrom] = DNA_to_onehot(seq)
         # print('crom {} label {}'.format(chrom, label))
