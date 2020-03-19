@@ -56,9 +56,11 @@ def importData(filepath, to_write = True):
             n = text_file.write(f"--------")
 
         genes[chrom] = DNA_to_onehot(seq)
+        # print('crom {} label {}'.format(chrom, label))
     if to_write:
         text_file.close()
         # print(f'min length = {min_len} and max_length = {max_length}')
+    # print('final label {}'.format(label))
     return genes, label
 
 def print_shapes(genes):
@@ -130,7 +132,9 @@ def set_up_data(filepath, n, print_boo = True):
         #print(data_tensor.shape)
     if print_boo:
         print("==== Finished loading data ====")
-    label_tensor = convert_labels_scalar_to_vector(labels)
+    # print(labels)
+    # label_tensor = convert_labels_scalar_to_vector(labels)
+    label_tensor = torch.tensor(labels).view(-1,1)
     return data_tensor, label_tensor
 
 

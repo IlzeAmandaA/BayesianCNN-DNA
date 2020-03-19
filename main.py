@@ -6,13 +6,13 @@ import numpy as np
 from tqdm import tqdm
 
 #set file location path
-filepath = "C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
+filepath = 'data/Aging_10_genes'  #"C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
 
 #set settings
 print_boo = True #set this to false if you don't want print statements
 n_examples = 999 #set this to any N to get N examples, if you go above the max (148) then it will just give all examples
 seed = 0 #this is a seed for reproducibility
-max_epochs = 100
+max_epochs = 1000
 
 #load the data
 DNA_dataset = Dataset(filepath, n_examples, print_boo) #create Dataset
@@ -37,8 +37,7 @@ def train():
         for i in tqdm(idx_train):
             x, y = DNA_dataset[i]
             x = x.to(device)
-            y = y.to(device)
-            print(x.shape, y.shape)
+            y = y.squeeze(dim=0).to(device) #
             #reset gradients
             optimizer.zero_grad()
             #calucalte loss
@@ -52,23 +51,24 @@ def train():
             optimizer.step()
 
         # calculate loss and error for epoch
-        train_loss /= len(idx_train) * 20  # number of genes
+        train_loss /= len(idx_train)  # number of genes
         train_error /= len(idx_train)
-        print('Epoch: {}, Loss: {:.4f}'.format(epoch, train_loss))
+        print('Epoch: {}, Loss: {:.4f}, train error: {:.4f}'.format(epoch, train_loss, train_error))
 
         test(idx_validation)
 
 
 
 def test(idx_validation):
+    print('Evaluating trained model')
     model.eval()
     test_loss = 0.
     test_error = 0.
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    for i in tqdm(idx_validation):
+    for i in idx_validation:
         x, y = DNA_dataset[i]
         x = x.to(device)
-        y = y.to(device)
+        y = y.squeeze(dim=0).to(device)
         print(x.shape, y.shape)
 
         loss, attention_weights = model.calculate_objective(x.float(), y)
@@ -84,14 +84,13 @@ def test(idx_validation):
                   'Attention Weights: {}'.format(bag_level, instance_level))
 
     test_error /= len(idx_validation)
-    test_loss /= len(idx_validation)
+    test_loss /= len(idx_validation)    # * x.shape[0]
 
-    print('\nTest Set, Loss: {:.4f}, Test error: {:.4f}'.format(test_loss.cpu().numpy()[0], test_error))
+    print('\nTest Set, Loss: {:.4f}, Test error: {:.4f}'.format(test_loss, test_error))
 
 
 
 if __name__ == '__main__':
-    print('Started training the model')
     train()
 
 

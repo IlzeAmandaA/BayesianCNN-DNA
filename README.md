@@ -2,6 +2,13 @@
  Temporariry Github repository for the DNA project
 
 # How the current files work
+- run file main.py from terminal 
+- specify in main.py the path to the file directory (filepath = ' ')
+
+
+
+
+
 Within the file "code" it is possible to run the following files:
 - Main.py: possible to forward one (fake) created batch through the CNN as created in the same file
 - create_arbitrary_data.py: Creates arbritrary BOW vectors, appends them in a matrix to create a sequence, which can be used to create fake data as a holder until we have access to the real data

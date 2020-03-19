@@ -1,8 +1,8 @@
 import torch
 from torch.utils import data
 import pandas as pd
-from create_arbitrary_data import *
-from read_data import *
+# from code.create_arbitrary_data import *
+from code.read_data import *
 import random
 import numpy as np
 
@@ -21,24 +21,24 @@ class Dataset(data.Dataset):
         return X,y.unsqueeze(dim=1)
 
     def get_random_shuffle(self, seed = 0):
-    	np.random.seed(seed)
-    	idx = np.arange(len(self.X))
-    	np.random.shuffle(idx)
-    	return idx
+        np.random.seed(seed)
+        idx = np.arange(len(self.X))
+        np.random.shuffle(idx)
+        return idx
 
-filepath = "C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
-
-print_boo = True #set this to false if you don't want print statements
-n_examples = 999 #set this to any N to get N examples, if you go above the max (148) then it will just give all examples
-seed = 0 #this is a seed for reproducibility 
-
-DNA_dataset = Dataset(filepath, n_examples, print_boo) #create Dataset
-idx_shuffle = DNA_dataset.get_random_shuffle(seed) #get a random shuffle for cross validation, do this K times
-
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-
-for i in idx_shuffle:
-	x, y = DNA_dataset[i]
-	x = x.to(device)
-	y = y.to(device)
-	print(x.shape, y.shape)
+# filepath = "C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
+#
+# print_boo = True #set this to false if you don't want print statements
+# n_examples = 999 #set this to any N to get N examples, if you go above the max (148) then it will just give all examples
+# seed = 0 #this is a seed for reproducibility
+#
+# DNA_dataset = Dataset(filepath, n_examples, print_boo) #create Dataset
+# idx_shuffle = DNA_dataset.get_random_shuffle(seed) #get a random shuffle for cross validation, do this K times
+#
+# device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+#
+# for i in idx_shuffle:
+#     x, y = DNA_dataset[i]
+#     x = x.to(device)
+#     y = y.to(device)
+#     print(x.shape, y.shape)
