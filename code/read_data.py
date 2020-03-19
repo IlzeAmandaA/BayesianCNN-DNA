@@ -36,6 +36,7 @@ def importData(filepath, to_write = True):
     """
         Imports the data and prints if needed. Also provides a warning if we miss a label.
     """
+
     f = open(filepath)
     genes = {}
     label = None
@@ -49,8 +50,9 @@ def importData(filepath, to_write = True):
             label = 0
         seq, chrom = process_line(line, filepath)
 
+
         if to_write:
-            text_file = open("lengths_sequences.txt", "a")
+            text_file = open('output/'+"lengths_sequences.txt", "a")
             text_file.write(f"File: {filepath} \n")
             text_file.write(f"Current chrom: {chrom} with sequence length: {str(len(seq))} \n")
             text_file.write(f"--------")
