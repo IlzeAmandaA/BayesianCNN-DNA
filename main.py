@@ -11,8 +11,7 @@ filepath = 'data_simulation'  #"C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
 
 #set settings
 print_boo = True #set this to false if you don't want print statements
-n_examples = 10 #set this to any N to get N examples, if you go above the max (148) then it will just give all examples
-seed = 0 #this is a seed for reproducibility
+n_examples = 160 #set this to any N to get N examples, if you go above the max (148) then it will just give all examples #this is a seed for reproducibility
 max_epochs = 1000
 output = 'output/'
 
@@ -31,7 +30,7 @@ def train():
         train_error = 0.
         model.train()
 
-        idx_train = DNA_dataset.get_random_shuffle(seed)  # get a random shuffle for cross validation, do this K times
+        idx_train = DNA_dataset.get_random_shuffle(epoch)  # get a random shuffle for cross validation, do this K times
         validation = int(len(idx_train) * 0.2)
         idx_validation = idx_train[-validation:]
         idx_train = idx_train[:len(idx_train) - validation]
