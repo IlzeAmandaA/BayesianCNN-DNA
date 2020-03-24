@@ -7,7 +7,7 @@ from tqdm import tqdm
 import pickle as pkl
 
 #set file location path
-filepath = 'data/Aging_10_genes'  #"C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
+filepath = 'data_simulation'  #"C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
 
 #set settings
 print_boo = True #set this to false if you don't want print statements

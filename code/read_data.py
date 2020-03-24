@@ -28,7 +28,8 @@ def process_line(line, filepath):
     """
     pieces = line.split(",")
     seq = pieces[1]
-    chrom = pieces[0].split(":")[2]
+    #chrom = pieces[0].split(":")[2]
+    chrom = pieces[0]
     return seq, chrom
 
 
@@ -84,13 +85,14 @@ def obtain_all_files(filepath):
             continue
     return file_list
 
-def set_up_tensors(genes):
+def set_up_tensors(genes, chroms):
     """
         Given a dict of genes, stack them and return them in one big tensor (x_genes, n_embedding, n_sequence)
     """
-    chroms = ['chr5','chr8', 'chr9','chr10','chr13','chr15','chr19']
-    data_tensor = genes['chr1'].unsqueeze(dim=0) #removed chr1 from the whole set of chrs
-    for chrm in chroms:
+    # chroms = ['chr5','chr8', 'chr9','chr10','chr13','chr15','chr19']
+    chr1 = chroms[0]
+    data_tensor = genes[chr1].unsqueeze(dim=0) #removed chr1 from the whole set of chrs
+    for chrm in chroms[1:]:
         data_tensor = torch.cat(([data_tensor, genes[chrm].unsqueeze(dim=0)]), dim = 0)
     return data_tensor
 
@@ -107,14 +109,15 @@ def set_up_data(filepath, n, print_boo = True):
     all_data = {}
     all_files = obtain_all_files(filepath)
     first_iteration = True
-
+    gene_ids=None
     labels = []
 
     counter = 0
     if print_boo:
         print("==== Loading data ====")
 
-    for file in all_files:
+    for idx_file,file in enumerate(all_files):
+
         if print_boo:
             print(f"Current file: {file}")
 
@@ -123,12 +126,16 @@ def set_up_data(filepath, n, print_boo = True):
         counter += 1
         genes, label = importData(file, to_write = False)
 
+        # set up the gene order according to the first file read
+        if idx_file==0:
+            gene_ids = list(genes.keys())
+
         labels.append(label)
         if first_iteration:
-            data_tensor = set_up_tensors(genes).unsqueeze(dim = 0)
+            data_tensor = set_up_tensors(genes, gene_ids).unsqueeze(dim = 0)
             first_iteration = False
         else:
-            data = set_up_tensors(genes).unsqueeze(dim = 0)
+            data = set_up_tensors(genes, gene_ids).unsqueeze(dim = 0)
             data_tensor = torch.cat(([data_tensor, data]), dim = 0)
 
         #print(data_tensor.shape)
