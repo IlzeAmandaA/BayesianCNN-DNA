@@ -119,7 +119,7 @@ def set_up_data(filepath, n, print_boo = False):
     for idx_file,file in enumerate(all_files):
 
         if print_boo:
-            print(f"Current file: {file}")
+            print("Current file: {}".format(file))
 
         if counter == n:
             break
