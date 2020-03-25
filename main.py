@@ -7,7 +7,6 @@ import numpy as np
 from tqdm import tqdm
 import pickle as pkl
 import argparse
-import sys
 import logging
 
 log = logging.getLogger('Training log')
@@ -146,7 +145,7 @@ def test(idx_validation, epoch):
 
 if __name__ == '__main__':
     train()
-    sys.stdout.close()
+
 
 
 
