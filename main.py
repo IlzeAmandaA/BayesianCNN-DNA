@@ -7,9 +7,7 @@ import numpy as np
 from tqdm import tqdm
 import pickle as pkl
 import argparse
-import logging
 
-# log = logging.getLogger('Training log')
 
 output = 'output/'
 
@@ -108,7 +106,7 @@ def test(idx_validation, epoch):
     test_loss = 0.
     test_error = 0.
     # device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    for i in idx_validation:
+    for i_n,i in enumerate(idx_validation):
         x, y = DNA_dataset[i]
         y=y.squeeze(dim=0)
         if args.cuda:
@@ -123,11 +121,11 @@ def test(idx_validation, epoch):
         error, predicted_label = model.calculate_classification_error(x.float(), y)
         test_error += error
 
+        if i_n<5: #print info for 5 bags
+            bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
+            instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
 
-        bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
-        instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
-
-        print('\nTrue Bag Label, Predicted Bag Label: {}\n'
+            print('\nTrue Bag Label, Predicted Bag Label: {}\n'
                   'Attention Weights: {} \n'.format(bag_level, instance_level))
         # log_file.write('\nTrue Bag Label, Predicted Bag Label: {}\n'
         #           'Attention Weights: {} \n'.format(bag_level, instance_level))
