@@ -21,8 +21,9 @@ parser.add_argument('--dataN', type=int, default=160, metavar='int',
                     help = 'number of data points to load')
 parser.add_argument('--lr', type=float, default=0.001, metavar='float',
                     help='learning rate')
-parser.add_argument('--epochs', type=int, default=20, metavar='int',
+parser.add_argument('--epochs', type=int, default=200, metavar='int',
                     help='max epochs')
+
 
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
@@ -91,8 +92,8 @@ def train():
         train_error /= len(idx_train)
         print('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
         # log_file.write('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
-        if epoch%10==0:
-            torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_.pth')
+        if epoch%20==0:
+            torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
             pkl.dump(loss_overall, open(output+'loss_train.pkl','wb'))
 
 
@@ -135,7 +136,7 @@ def test(idx_validation, epoch):
 
     print('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     # log_file.write('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
-    file_test = open(output+'test_lost.txt', 'a')
+    file_test = open(output+'test_lost_'+str(args.lr) + '.txt', 'a')
     file_test.write('Training epoch {} \n'.format(epoch))
     file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     file_test.close()
