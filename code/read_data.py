@@ -33,7 +33,7 @@ def process_line(line, filepath):
     return seq, chrom
 
 
-def importData(filepath, to_write = True):
+def importData(filepath, to_write = False):
     """
         Imports the data and prints if needed. Also provides a warning if we miss a label.
     """
@@ -54,9 +54,9 @@ def importData(filepath, to_write = True):
 
         if to_write:
             text_file = open('output/'+"lengths_sequences.txt", "a")
-            text_file.write(f"File: {filepath} \n")
-            text_file.write(f"Current chrom: {chrom} with sequence length: {str(len(seq))} \n")
-            text_file.write(f"--------")
+            text_file.write("File: {} \n".format(filepath))
+            text_file.write("Current chrom: {} with sequence length: {} \n".format(chrom, len(seq)))
+            text_file.write("--------")
 
         genes[chrom] = DNA_to_onehot(seq)
         # print('crom {} label {}'.format(chrom, label))
@@ -102,7 +102,7 @@ def convert_labels_scalar_to_vector(labels):
         all_labels[index][label] = 1
     return torch.from_numpy(all_labels).float()
 
-def set_up_data(filepath, n, print_boo = True):
+def set_up_data(filepath, n, print_boo = False):
     """
         Creates two dicts: {"filename": matrix}, {"filename": label} 
     """

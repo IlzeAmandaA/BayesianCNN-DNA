@@ -36,7 +36,7 @@ if args.cuda:
     log_file.write('GPU is working \n')
 
 log_file.write('Loading the data \n')
-DNA_dataset = Dataset(path='data_simulation', n_examples=args.dataN, print_boo=True) #max n_examples for sim_DAta 160
+DNA_dataset = Dataset(path='data_simulation', n_examples=args.dataN, print_boo=False) #max n_examples for sim_DAta 160
 
 log_file.write('Initialize Model \n')
 model = AttentionNetwork()
