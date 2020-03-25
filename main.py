@@ -1,31 +1,45 @@
 from code.dataloader import Dataset
 from code.modelV2 import AttentionNetwork
 import torch
+from torch.autograd import Variable
 from torch import optim
 import numpy as np
 from tqdm import tqdm
 import pickle as pkl
+import argparse
 
-#set file location path
-filepath = 'data_simulation'  #"C:\\Users\\laure\\OneDrive\\Desktop\\cnn-data"
+#defines arguments that can be passed to the model
+parser = argparse.ArgumentParser(description='PyTorch DNA bags Model')
+parser.add_argument('--no_cuda', action='store_true', default=False,
+                    help='if passed disables CUDA training')
+parser.add_argument('--seed', type=int, default=1, metavar='int',
+                    help = 'random seed (default:1)')
+parser.add_argument('--dataN', type=int, default=160, metavar='int',
+                    help = 'number of data points to load')
+args = parser.parse_args()
+args.cuda = not args.no_cuda and torch.cuda.is_available()
 
-#set settings
-print_boo = True #set this to false if you don't want print statements
-n_examples = 160 #set this to any N to get N examples, if you go above the max (148) then it will just give all examples #this is a seed for reproducibility
-max_epochs = 1000
-output = 'output/'
+if args.cuda:
+    torch.cuda.manual_seed_all(args.seed)
+    print('GPU is working')
 
-#load the data
-DNA_dataset = Dataset(filepath, n_examples, print_boo) #create Dataset
+print('Loading the data')
+DNA_dataset = Dataset(path='data_simulation', n_examples=args.dataN, print_boo=True) #max n_examples for sim_DAta 160
+
+print('Initialize Model')
 model = AttentionNetwork()
-optimizer = optim.Adam(model.parameters(), lr=0.001)
+if args.cuda:
+    model.cuda()
 
 
-def train():
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+optimizer = optim.Adam(model.parameters(), lr=0.01)
+
+
+def train(max_epochs, output):
+    #device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     loss_overall = []
     for epoch in range(1,max_epochs+1):
-        print('Epoch {}/{}'.format(epoch,max_epochs+1))
+        print('Epoch {}/{}'.format(epoch,max_epochs))
         train_loss = 0.
         train_error = 0.
         model.train()
@@ -38,8 +52,13 @@ def train():
         #train the model
         for i in tqdm(idx_train):
             x, y = DNA_dataset[i]
-            x = x.to(device)
-            y = y.squeeze(dim=0).to(device) #
+            y = y.squeeze(dim=0)
+            if args.cuda:
+                x, y = x.cuda(), y.cuda()
+
+            x, y = Variable(x), Variable(y)
+            # x = x.to(device)
+            # y = y.squeeze(dim=0).to(device) #
             #reset gradients
             optimizer.zero_grad()
             #calucalte loss
@@ -62,21 +81,25 @@ def train():
             pkl.dump(loss_overall, open(output+'loss_train.pkl','wb'))
 
 
-        test(idx_validation, epoch)
+        test(idx_validation, epoch, output)
 
 
 
-def test(idx_validation, epoch):
+def test(idx_validation, epoch, output):
     print('Evaluating trained model')
     model.eval()
     test_loss = 0.
     test_error = 0.
-    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+    # device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     for i in idx_validation:
         x, y = DNA_dataset[i]
-        x = x.to(device)
-        y = y.squeeze(dim=0).to(device)
-        print(x.shape, y.shape)
+        y=y.squeeze(dim=0)
+        if args.cuda:
+            x, y = x.cuda(), y.cuda()
+        x, y = Variable(x), Variable(y)
+        # x = x.to(device)
+        # y = y.squeeze(dim=0).to(device)
+        # print(x.shape, y.shape)
 
         loss, attention_weights = model.calculate_objective(x.float(), y)
         test_loss += loss.item()
@@ -101,7 +124,7 @@ def test(idx_validation, epoch):
 
 
 if __name__ == '__main__':
-    train()
+    train(max_epochs=1000, output='output/')
 
 
 
