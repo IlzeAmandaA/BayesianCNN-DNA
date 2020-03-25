@@ -9,7 +9,7 @@ import pickle as pkl
 import argparse
 import logging
 
-log = logging.getLogger('Training log')
+# log = logging.getLogger('Training log')
 
 output = 'output/'
 
@@ -32,14 +32,14 @@ args.cuda = not args.no_cuda and torch.cuda.is_available()
 
 if args.cuda:
     torch.cuda.manual_seed_all(args.seed)
-    log.info('GPU is working \n')
+    print('GPU is working \n')
 
 
-log.info('Loading the data \n')
+print('Loading the data \n')
 # log_file.write('Loading the data \n')
 DNA_dataset = Dataset(path='data_simulation', n_examples=args.dataN, print_boo=False) #max n_examples for sim_DAta 160
 
-log.info('Initialize Model \n')
+print('Initialize Model \n')
 # log_file.write('Initialize Model \n')
 model = AttentionNetwork()
 if args.cuda:
@@ -54,7 +54,7 @@ def train():
     #device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     loss_overall = []
     for epoch in range(1,args.epochs+1):
-        log.info('Epoch {}/{} \n'.format(epoch,args.epochs))
+        print('Epoch {}/{} \n'.format(epoch,args.epochs))
         # log_file.write('Epoch {}/{} \n'.format(epoch,args.epochs))
         train_loss = 0.
         train_error = 0.
@@ -91,7 +91,7 @@ def train():
         train_loss /= len(idx_train)  # number of genes
         loss_overall.append(train_loss)
         train_error /= len(idx_train)
-        log.info('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
+        print('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
         # log_file.write('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
         if epoch%10==0:
             torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_.pth')
@@ -127,7 +127,7 @@ def test(idx_validation, epoch):
         bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
         instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
 
-        log.info('\nTrue Bag Label, Predicted Bag Label: {}\n'
+        print('\nTrue Bag Label, Predicted Bag Label: {}\n'
                   'Attention Weights: {} \n'.format(bag_level, instance_level))
         # log_file.write('\nTrue Bag Label, Predicted Bag Label: {}\n'
         #           'Attention Weights: {} \n'.format(bag_level, instance_level))
@@ -135,7 +135,7 @@ def test(idx_validation, epoch):
     test_error /= len(idx_validation)
     test_loss /= len(idx_validation)    # * x.shape[0]
 
-    log.info('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
+    print('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     # log_file.write('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     file_test = open(output+'test_lost.txt', 'a')
     file_test.write('Training epoch {} \n'.format(epoch))
