@@ -69,7 +69,7 @@ def importData(filepath, to_write = False):
 def print_shapes(genes):
     print("-----")
     for gene, seq in genes.items():
-        print(f"{gene} has shape {seq.shape} while holding {getsizeof(gene)} bytes")
+        print("{} has shape {} while holding {} bytes".format(gene, seq.shape, getsizeof(gene)))
     print("-----")
 
 def obtain_all_files(filepath):
