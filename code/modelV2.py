@@ -6,15 +6,15 @@ import torch.nn.functional as F
 
 class AttentionNetwork(nn.Module):
 
-    def __init__(self):
+    def __init__(self, L,D,k_max,hidden_CNN):
         super(AttentionNetwork, self).__init__()
 
         #define the dimensions of the FFNN
-        self.L=1000
-        self.D=128
+        self.L=L #1000
+        self.D=D #128
         self.K=1 #final output dimension
-        self.k_max=20
-        self.hidden_CNN = 128
+        self.k_max=k_max #20
+        self.hidden_CNN = hidden_CNN # 128
         self.dim=2
 
 

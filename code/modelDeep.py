@@ -6,25 +6,24 @@ import torch.nn.functional as F
 
 class AttentionNetworkDeep(nn.Module):
 
-    def __init__(self):
+    def __init__(self, L,D,k_max,hidden_CNN):
         super(AttentionNetworkDeep, self).__init__()
 
         #define the dimensions of the FFNN
-        self.L=1000 #old 100
-        self.D=500 #old 128
-        self.K=1 #final output dimension
-        self.k_max=5
-        self.hidden_CNN1 = 50
-        self.hidden_CNN =50
-        self.dim=2
+        self.L = L  # 1000
+        self.D = D  # 128
+        self.K = 1  # final output dimension
+        self.k_max = k_max  # 20
+        self.hidden_CNN = hidden_CNN  # 128
+        self.dim = 2
 
 
         #transform the data using a CNN
         self.transformer_part1 =nn.Sequential(
-            nn.Conv1d(4,self.hidden_CNN1,kernel_size=11, stride=1, padding=0),
+            nn.Conv1d(4,self.hidden_CNN,kernel_size=11, stride=1, padding=0),
             nn.ReLU(),
             nn.Dropout(p=0.5),
-            nn.Conv1d(self.hidden_CNN1,self.hidden_CNN, kernel_size=11),
+            nn.Conv1d(self.hidden_CNN,self.hidden_CNN, kernel_size=11),
             nn.ReLU(),
             nn.Dropout(p=0.5),
         )

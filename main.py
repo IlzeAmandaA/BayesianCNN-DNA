@@ -28,6 +28,18 @@ parser.add_argument('--epochs', type=int, default=200, metavar='int',
 parser.add_argument('--model', type=str, default='attention',
                     help='Choose which model to run (default attention)')
 
+parser.add_argument('--maxk', type=int, default=5,
+                    help='Max_k for the pooling layer')
+
+parser.add_argument('--L', type=int, default=1000,
+                    help='Hidden units of linear layer')
+
+parser.add_argument('--D', type=int, default=500,
+                    help='Hidden units attention')
+
+parser.add_argument('--CNN', type=int, default=50,
+                    help='hidden units CNN')
+
 
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
@@ -46,9 +58,9 @@ print('Initialize Model \n')
 # log_file.write('Initialize Model \n')
 if args.model == 'attention':
     print('Running attention model \n')
-    model = AttentionNetwork()
+    model = AttentionNetwork(args.L, args.D, args.maxk, args.CNN)
 elif args.model == 'attention_deep':
-    model = AttentionNetworkDeep()
+    model = AttentionNetworkDeep(args.L, args.D, args.maxk, args.CNN)
 
 
 if args.cuda:
@@ -132,7 +144,7 @@ def test(idx_validation, epoch):
         error, predicted_label = model.calculate_classification_error(x.float(), y)
         test_error += error
 
-        if i_n<3: #print info for 5 bags
+        if i_n<1: #print info for 5 bags
             bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
             instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
 
