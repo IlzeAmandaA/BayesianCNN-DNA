@@ -2,9 +2,10 @@ import os
 import numpy as np
 import torch
 from sys import getsizeof
+from tqdm import tqdm
 
 look_up = {"A": 0, "G": 1, "T": 2, "C": 3}
-MAX_LENGHT = 142230 #change depending on data
+MAX_LENGHT = 98820 #change depending on data
 
 
 """ NOTE:
@@ -22,7 +23,7 @@ def DNA_to_onehot(sequence):
         data[look_up[letter.upper()]][index] = 1
     return torch.from_numpy(data).float()
 
-def process_line(line, filepath):
+def process_line(line):
     """
         Processes a given line to aquire the sequence and the name of the chromosome
     """
@@ -49,7 +50,7 @@ def importData(filepath, to_write = False):
         except:
             print("WARNING!!! File: ",filepath, " has no label assigned ... assuming label = 0." )
             label = 0
-        seq, chrom = process_line(line, filepath)
+        seq, chrom = process_line(line)
 
 
         if to_write:
@@ -102,7 +103,7 @@ def convert_labels_scalar_to_vector(labels):
         all_labels[index][label] = 1
     return torch.from_numpy(all_labels).float()
 
-def set_up_data(filepath, n, print_boo = False):
+def set_up_data(filepath, n, print_boo = True):
     """
         Creates two dicts: {"filename": matrix}, {"filename": label} 
     """
@@ -116,7 +117,7 @@ def set_up_data(filepath, n, print_boo = False):
     if print_boo:
         print("==== Loading data ====")
 
-    for idx_file,file in enumerate(all_files):
+    for idx_file,file in enumerate(tqdm(all_files)):
 
         if print_boo:
             print("Current file: {}".format(file))
