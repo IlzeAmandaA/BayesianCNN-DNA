@@ -10,7 +10,7 @@ class AttentionNetworkDeep(nn.Module):
         super(AttentionNetworkDeep, self).__init__()
 
         #define the dimensions of the FFNN
-        self.L=500
+        self.L=1000
         self.D=128
         self.K=1 #final output dimension
         self.k_max=20
