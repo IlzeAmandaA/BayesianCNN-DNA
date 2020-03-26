@@ -9,6 +9,9 @@ import numpy as np
 class Dataset(data.Dataset):
     def __init__(self, path, n_examples = 999, print_boo = True):
         self.X, self.y = set_up_data(path, n_examples, print_boo)
+        print('X shape', self.X.shape)
+        print('y shape', self.y.shape)
+
 
     def __len__(self):
         return len(self.X) #pass the an int in which range index is created
