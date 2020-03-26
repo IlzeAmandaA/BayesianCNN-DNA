@@ -1,5 +1,6 @@
 from code.dataloader import Dataset
 from code.modelV2 import AttentionNetwork
+from code.modelDeep import AttentionNetworkDeep
 import torch
 from torch.autograd import Variable
 from torch import optim
@@ -24,6 +25,9 @@ parser.add_argument('--lr', type=float, default=0.001, metavar='float',
 parser.add_argument('--epochs', type=int, default=200, metavar='int',
                     help='max epochs')
 
+parser.add_argument('--model', type=str, default='attention',
+                    help='Choose which model to run (default attention)')
+
 
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
@@ -40,7 +44,13 @@ DNA_dataset = Dataset(path='data_simulation', n_examples=args.dataN, print_boo=F
 
 print('Initialize Model \n')
 # log_file.write('Initialize Model \n')
-model = AttentionNetwork()
+if args.model == 'attention':
+    print('Running attention model \n')
+    model = AttentionNetwork()
+elif args.model == 'attention_deep':
+    model = AttentionNetworkDeep()
+
+
 if args.cuda:
     model.cuda()
 
@@ -60,7 +70,7 @@ def train():
         model.train()
 
         idx_train = DNA_dataset.get_random_shuffle(epoch)  # get a random shuffle for cross validation, do this K times
-        validation = int(len(idx_train) * 0.2)
+        validation = int(len(idx_train) * 0.1)
         idx_validation = idx_train[-validation:]
         idx_train = idx_train[:len(idx_train) - validation]
 

@@ -4,10 +4,10 @@ import torch.nn.functional as F
 
 
 
-class AttentionNetwork(nn.Module):
+class AttentionNetworkDeep(nn.Module):
 
     def __init__(self):
-        super(AttentionNetwork, self).__init__()
+        super(AttentionNetworkDeep, self).__init__()
 
         #define the dimensions of the FFNN
         self.L=500
@@ -15,7 +15,7 @@ class AttentionNetwork(nn.Module):
         self.K=1 #final output dimension
         self.k_max=20
         self.hidden_CNN1 = 50
-        self.hidden_CNN =100
+        self.hidden_CNN =50
         self.dim=2
 
 
@@ -24,7 +24,6 @@ class AttentionNetwork(nn.Module):
             nn.Conv1d(4,self.hidden_CNN1,kernel_size=11, stride=1, padding=0),
             nn.ReLU(),
             nn.Dropout(p=0.5),
-            nn.MaxPool2d(2, stride=2),
             nn.Conv1d(self.hidden_CNN1,self.hidden_CNN, kernel_size=11),
             nn.ReLU(),
             nn.Dropout(p=0.5)
