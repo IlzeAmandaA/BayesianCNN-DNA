@@ -132,7 +132,7 @@ def test(idx_validation, epoch):
         error, predicted_label = model.calculate_classification_error(x.float(), y)
         test_error += error
 
-        if i_n<5: #print info for 5 bags
+        if i_n<3: #print info for 5 bags
             bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
             instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
 

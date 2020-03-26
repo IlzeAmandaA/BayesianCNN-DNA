@@ -10,8 +10,8 @@ class AttentionNetworkDeep(nn.Module):
         super(AttentionNetworkDeep, self).__init__()
 
         #define the dimensions of the FFNN
-        self.L=1000
-        self.D=128
+        self.L=1000 #old 100
+        self.D=500 #old 128
         self.K=1 #final output dimension
         self.k_max=5
         self.hidden_CNN1 = 50
