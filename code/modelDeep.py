@@ -13,7 +13,7 @@ class AttentionNetworkDeep(nn.Module):
         self.L=1000
         self.D=128
         self.K=1 #final output dimension
-        self.k_max=20
+        self.k_max=5
         self.hidden_CNN1 = 50
         self.hidden_CNN =50
         self.dim=2
@@ -26,7 +26,7 @@ class AttentionNetworkDeep(nn.Module):
             nn.Dropout(p=0.5),
             nn.Conv1d(self.hidden_CNN1,self.hidden_CNN, kernel_size=11),
             nn.ReLU(),
-            nn.Dropout(p=0.5)
+            nn.Dropout(p=0.5),
         )
 
         self.transformer_part2 = nn.Sequential(
@@ -67,12 +67,14 @@ class AttentionNetworkDeep(nn.Module):
         #assumes input of form gene_count x channels x sequnce_length
         #example: 20x4x2000
         H = self.transformer_part1(x)
+
+        #applying pooling here
         H = self.kmax_pooling(H) #genes x kernels x max_feat
 
         #flatten out
-        H = H.reshape(H.size(0),-1)
+        H = H.reshape(-1, self.hidden_CNN*self.k_max)
         #pass to the linear tranforamtion
-        H = self.transformer_part2(H)
+        H = self.transformer_part2(H) #N_genes x L
 
         A_V = self.attention_V(H)
         A_U = self.attention_U(H)
