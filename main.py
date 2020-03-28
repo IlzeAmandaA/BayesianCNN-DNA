@@ -75,6 +75,10 @@ stopping = EarlyStopping()
 def train():
     #device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     loss_overall = []
+    error_overall = []
+    test_loss = []
+    test_error = []
+
     for epoch in range(1,args.epochs+1):
         print('Epoch {}/{} \n'.format(epoch,args.epochs))
         # log_file.write('Epoch {}/{} \n'.format(epoch,args.epochs))
@@ -113,6 +117,7 @@ def train():
         train_loss /= len(idx_train)  # number of genes
         loss_overall.append(train_loss)
         train_error /= len(idx_train)
+        error_overall.append(train_error)
         print('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
         # log_file.write('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
         if epoch%40==0:
@@ -120,29 +125,41 @@ def train():
                 'epoch' : epoch,
                 'state_dict' : model.state_dict(),
                 'optimizer' : optimizer.state_dict(),
-                'loss':loss_overall
             }
-            checkpoint_name = str(args.model)+'_'+ str(args.lr) + '_' +\
-                              str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk) +'_'+str(epoch)
-            save_ckp(checkpoint, checkpoint_name, 'log/')
+            ckp_metrics = {'loss':loss_overall,'error':error_overall,
+                           'loss_test':test_loss, 'error_test':test_error}
 
-        if stopping.step(train_loss):
+            checkpoint_name = str(args.model)+'_'+ str(args.lr) + '_' +\
+                              str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk)
+
+            #save checkpoint of model trained settings
+            save_ckp(checkpoint, checkpoint_name +'_'+str(epoch), 'log/')
+            #save metric values
+            pkl.dump(ckp_metrics, open('log/'+ checkpoint_name+'.pkl', 'wb'))
+
+        if stopping.is_better(train_loss):
             checkpoint = {
                 'epoch': epoch,
                 'state_dict': model.state_dict(),
                 'optimizer': optimizer.state_dict(),
-                'loss': loss_overall
             }
-            checkpoint_name = str(args.model) + '_' + str(args.lr) + '_' + \
-                              str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk)+'best'
-            save_ckp(checkpoint, checkpoint_name, 'output/')
+            stopping.checkpoint = checkpoint
+            stopping.checkpoint_name = str(args.model) + '_' + str(args.lr) + '_' + \
+                              str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) \
+                                       + '_' + str(epoch) + '_best'
+
+
+        if stopping.num_bad_epochs>=stopping.patience:
+            save_ckp(stopping.checkpoint, stopping.checkpoint_name, 'output/')
 
             # torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
             # pkl.dump(loss_overall, open(output+'loss_train.pkl','wb'))
             #
 
-        test(idx_validation, epoch)
 
+        t_loss, t_error =test(idx_validation, epoch)
+        test_loss.append(t_loss)
+        test_error.append(t_error)
 
 
 def test(idx_validation, epoch):
@@ -187,6 +204,7 @@ def test(idx_validation, epoch):
     file_test.write('Training epoch {} \n'.format(epoch))
     file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     file_test.close()
+    return test_loss, test_error
 
 def save_ckp(state, checkpoint_name, ckp_dir):
     f_path = ckp_dir + checkpoint_name + '.pt'
