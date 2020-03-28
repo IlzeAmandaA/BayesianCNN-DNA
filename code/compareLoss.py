@@ -20,3 +20,7 @@ class EarlyStopping():
         else:
             self.num_bad_epochs+=1
             return False
+
+    def store_model(self, ckp, ckp_name):
+        self.checkpoint = ckp
+        self.checkpoint_name = ckp_name

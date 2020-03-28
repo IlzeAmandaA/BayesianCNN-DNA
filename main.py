@@ -143,10 +143,11 @@ def train():
                 'state_dict': model.state_dict(),
                 'optimizer': optimizer.state_dict(),
             }
-            stopping.checkpoint = checkpoint
-            stopping.checkpoint_name = str(args.model) + '_' + str(args.lr) + '_' + \
+
+            ckp_name = str(args.model) + '_' + str(args.lr) + '_' + \
                               str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) \
                                        + '_' + str(epoch) + '_best'
+            stopping.store_model(checkpoint, ckp_name)
 
 
         if stopping.num_bad_epochs>=stopping.patience:
@@ -155,7 +156,6 @@ def train():
             # torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
             # pkl.dump(loss_overall, open(output+'loss_train.pkl','wb'))
             #
-
 
         t_loss, t_error =test(idx_validation, epoch)
         test_loss.append(t_loss)
