@@ -1,6 +1,7 @@
 from code.dataloader import Dataset
 from code.modelV2 import AttentionNetwork
 from code.modelDeep import AttentionNetworkDeep
+from code.compareLoss import EarlyStopping
 import torch
 from torch.autograd import Variable
 from torch import optim
@@ -68,7 +69,7 @@ if args.cuda:
 
 
 optimizer = optim.Adam(model.parameters(), lr=args.lr)
-
+stopping = EarlyStopping()
 
 
 def train():
@@ -114,10 +115,30 @@ def train():
         train_error /= len(idx_train)
         print('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
         # log_file.write('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
-        if epoch%20==0:
-            torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
-            pkl.dump(loss_overall, open(output+'loss_train.pkl','wb'))
+        if epoch%40==0:
+            checkpoint = {
+                'epoch' : epoch,
+                'state_dict' : model.state_dict(),
+                'optimizer' : optimizer.state_dict(),
+                'loss':loss_overall
+            }
+            checkpoint_name = str(args.model)+'_'+ str(args.lr) + '_' +str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk)
+            save_ckp(checkpoint, checkpoint_name, 'log/')
 
+        if stopping.step(train_loss):
+            checkpoint = {
+                'epoch': epoch,
+                'state_dict': model.state_dict(),
+                'optimizer': optimizer.state_dict(),
+                'loss': loss_overall
+            }
+            checkpoint_name = str(args.model) + '_' + str(args.lr) + '_' + str(args.L) + '_' + str(
+                args.CNN) + '_' + str(args.maxk)
+            save_ckp(checkpoint, checkpoint_name, 'output/')
+
+            # torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
+            # pkl.dump(loss_overall, open(output+'loss_train.pkl','wb'))
+            #
 
         test(idx_validation, epoch)
 
@@ -162,6 +183,19 @@ def test(idx_validation, epoch):
     file_test.write('Training epoch {} \n'.format(epoch))
     file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     file_test.close()
+
+def save_ckp(state, checkpoint_name, ckp_dir):
+    f_path = ckp_dir + checkpoint_name + '.pt'
+    torch.save(state, f_path)
+
+
+def load_ckp(checkpoint_fpath, model, optimizer):
+    checkpoint = torch.load(checkpoint_fpath)
+    model.load_state_dict(checkpoint['state_dict'])
+    optimizer.load_state_dict(checkpoint['optimizer'])
+    return model, optimizer, checkpoint['epoch']
+
+
 
 
 if __name__ == '__main__':
