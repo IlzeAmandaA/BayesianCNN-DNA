@@ -122,7 +122,8 @@ def train():
                 'optimizer' : optimizer.state_dict(),
                 'loss':loss_overall
             }
-            checkpoint_name = str(args.model)+'_'+ str(args.lr) + '_' +str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk)
+            checkpoint_name = str(args.model)+'_'+ str(args.lr) + '_' +\
+                              str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk)
             save_ckp(checkpoint, checkpoint_name, 'log/')
 
         if stopping.step(train_loss):
@@ -132,8 +133,8 @@ def train():
                 'optimizer': optimizer.state_dict(),
                 'loss': loss_overall
             }
-            checkpoint_name = str(args.model) + '_' + str(args.lr) + '_' + str(args.L) + '_' + str(
-                args.CNN) + '_' + str(args.maxk)
+            checkpoint_name = str(args.model) + '_' + str(args.lr) + '_' + \
+                              str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk)
             save_ckp(checkpoint, checkpoint_name, 'output/')
 
             # torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
