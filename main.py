@@ -123,7 +123,7 @@ def train():
                 'loss':loss_overall
             }
             checkpoint_name = str(args.model)+'_'+ str(args.lr) + '_' +\
-                              str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk)
+                              str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk) +'_'+str(epoch)
             save_ckp(checkpoint, checkpoint_name, 'log/')
 
         if stopping.step(train_loss):
@@ -134,7 +134,7 @@ def train():
                 'loss': loss_overall
             }
             checkpoint_name = str(args.model) + '_' + str(args.lr) + '_' + \
-                              str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk)
+                              str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk)+'best'
             save_ckp(checkpoint, checkpoint_name, 'output/')
 
             # torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
@@ -180,7 +180,10 @@ def test(idx_validation, epoch):
 
     print('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     # log_file.write('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
-    file_test = open(output+'test_lost_'+str(args.lr) + '.txt', 'a')
+    file_test = open(output+'test_lost_'+
+                     str(args.model) + '_' + str(args.lr) + '_' +
+                     str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) +
+                     str(args.lr) + '.txt', 'a')
     file_test.write('Training epoch {} \n'.format(epoch))
     file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     file_test.close()

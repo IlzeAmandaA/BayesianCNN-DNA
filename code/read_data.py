@@ -130,7 +130,7 @@ def set_up_data(filepath, n, print_boo = True):
         # set up the gene order according to the first file read
         if idx_file==0:
             gene_ids = list(genes.keys())
-            print('Gene order based on the first file read: {} \n'.format(file))
+            print('\n Gene order based on the first file read: {} \n'.format(file))
             print(gene_ids)
 
         labels.append(label)
