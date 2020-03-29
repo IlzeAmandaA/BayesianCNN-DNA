@@ -230,15 +230,6 @@ def save_ckp(state, checkpoint_name, ckp_dir):
     torch.save(state, f_path)
 
 
-def load_ckp(checkpoint_fpath, model, optimizer):
-    checkpoint = torch.load(checkpoint_fpath)
-    model.load_state_dict(checkpoint['state_dict'])
-    optimizer.load_state_dict(checkpoint['optimizer'])
-    return model, optimizer, checkpoint['epoch']
-
-
-
-
 if __name__ == '__main__':
     train()
 
