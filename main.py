@@ -9,6 +9,7 @@ import numpy as np
 from tqdm import tqdm
 import pickle as pkl
 import argparse
+import random
 
 
 output = 'output/'
@@ -94,10 +95,9 @@ def train():
         train_error = 0.
         model.train()
 
-        # idx_train = DNA_dataset.get_random_shuffle(epoch)  # get a random shuffle for cross validation, do this K times
-        # validation = int(len(idx_train) * 0.1)
-        # idx_validation = idx_train[-validation:]
-        # idx_train = idx_train[:len(idx_train) - validation]
+        #shuffle the training data at every epoch
+        random.seed(epoch)
+        random.shuffle(idx_train)
 
         #train the model
         for i in tqdm(idx_train):
