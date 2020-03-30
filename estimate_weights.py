@@ -101,12 +101,15 @@ def validate():
                 error, predicted_label = model.calculate_classification_error(x.float(), y)
                 test_error += error
 
+                print('\n label {} \n'.format(y))
+                print('attnetion weights: \n')
+                print(str(attention_weights.cpu().data.numpy()))
 
                 if y==1:
                    attention_weight_pos.append(attention_weights)
 
             epoch_attention = torch.stack(attention_weight_pos, dim=1).squeeze(0)
-            mean_epoch_attention = (epoch_attention.sum(0)/epoch_attention.shape[0]).numpy()
+            mean_epoch_attention = (epoch_attention.sum(0)/epoch_attention.shape[0]).cpu().data.numpy()
 
                 #
                 #
@@ -130,7 +133,7 @@ def validate():
             file_test.write('Training epoch {} \n'.format(epoch))
             file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
             file_test.write('Mean Attention Weights (label 1): \n')
-            file_test.write(mean_epoch_attention)
+            file_test.write(str(mean_epoch_attention))
             file_test.write('\n')
             file_test.close()
 
