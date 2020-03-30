@@ -121,7 +121,7 @@ def train():
         error_overall.append(train_error)
         print('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
         # log_file.write('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
-        if epoch%20==0:
+        if epoch%40==0 and epoch>=80:
             checkpoint = {
                 'epoch' : epoch,
                 'state_dict' : model.state_dict(),
