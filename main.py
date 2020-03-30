@@ -22,9 +22,9 @@ parser.add_argument('--seed', type=int, default=1, metavar='int',
                     help = 'random seed (default:1)')
 parser.add_argument('--dataN', type=int, default=160, metavar='int',
                     help = 'number of data points to load')
-parser.add_argument('--lr', type=float, default=0.001, metavar='float',
+parser.add_argument('--lr', type=float, default=0.0001, metavar='float',
                     help='learning rate')
-parser.add_argument('--epochs', type=int, default=200, metavar='int',
+parser.add_argument('--epochs', type=int, default=180, metavar='int',
                     help='max epochs')
 
 parser.add_argument('--model', type=str, default='attention',
@@ -33,14 +33,15 @@ parser.add_argument('--model', type=str, default='attention',
 parser.add_argument('--maxk', type=int, default=5,
                     help='Max_k for the pooling layer')
 
-parser.add_argument('--L', type=int, default=1000,
+parser.add_argument('--L', type=int, default=500,
                     help='Hidden units of linear layer')
 
-parser.add_argument('--D', type=int, default=500,
+parser.add_argument('--D', type=int, default=128,
                     help='Hidden units attention')
 
-parser.add_argument('--CNN', type=int, default=50,
+parser.add_argument('--CNN', type=int, default=100,
                     help='hidden units CNN')
+
 parser.add_argument('--fold', type=int, default=1,
                     help='Cross-validation shuffle fold')
 
