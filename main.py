@@ -40,7 +40,8 @@ parser.add_argument('--D', type=int, default=500,
 
 parser.add_argument('--CNN', type=int, default=50,
                     help='hidden units CNN')
-
+parser.add_argument('--fold', type=int, default=1,
+                    help='Cross-validation shuffle fold')
 
 args = parser.parse_args()
 args.cuda = not args.no_cuda and torch.cuda.is_available()
@@ -69,28 +70,34 @@ if args.cuda:
 
 
 optimizer = optim.Adam(model.parameters(), lr=args.lr)
-stopping_training = EarlyStopping(patience=8)
+# stopping_training = EarlyStopping(patience=8)
 stopping_test = EarlyStopping(patience=8)
 
 
 def train():
-    #device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+    #get a shuffle of the data
+    idx_train = DNA_dataset.get_random_shuffle(args.fold)
+    validation = int(len(idx_train) * 0.1)
+    idx_validation = idx_train[-validation:]
+    idx_train = idx_train[:len(idx_train) - validation]
+
     loss_overall = []
     error_overall = []
     test_loss = []
     test_error = []
 
+
     for epoch in range(1,args.epochs+1):
         print('Epoch {}/{} \n'.format(epoch,args.epochs))
-        # log_file.write('Epoch {}/{} \n'.format(epoch,args.epochs))
         train_loss = 0.
         train_error = 0.
         model.train()
 
-        idx_train = DNA_dataset.get_random_shuffle(epoch)  # get a random shuffle for cross validation, do this K times
-        validation = int(len(idx_train) * 0.1)
-        idx_validation = idx_train[-validation:]
-        idx_train = idx_train[:len(idx_train) - validation]
+        # idx_train = DNA_dataset.get_random_shuffle(epoch)  # get a random shuffle for cross validation, do this K times
+        # validation = int(len(idx_train) * 0.1)
+        # idx_validation = idx_train[-validation:]
+        # idx_train = idx_train[:len(idx_train) - validation]
 
         #train the model
         for i in tqdm(idx_train):
@@ -100,8 +107,7 @@ def train():
                 x, y = x.cuda(), y.cuda()
 
             x, y = Variable(x), Variable(y)
-            # x = x.to(device)
-            # y = y.squeeze(dim=0).to(device) #
+
             #reset gradients
             optimizer.zero_grad()
             #calucalte loss
@@ -120,38 +126,39 @@ def train():
         train_error /= len(idx_train)
         error_overall.append(train_error)
         print('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
-        # log_file.write('Epoch: {}, Loss: {:.4f}, train error: {:.4f} \n'.format(epoch, train_loss, train_error))
-        if epoch%40==0 and epoch>=80:
-            checkpoint = {
-                'epoch' : epoch,
-                'state_dict' : model.state_dict(),
-                'optimizer' : optimizer.state_dict(),
-            }
+
+        if epoch%50==0:
+            # checkpoint = {
+            #     'epoch' : epoch,
+            #     'state_dict' : model.state_dict(),
+            #     'optimizer' : optimizer.state_dict(),
+            # }
             ckp_metrics = {'loss':loss_overall,'error':error_overall,
                            'loss_test':test_loss, 'error_test':test_error}
 
             checkpoint_name = str(args.model)+'_'+ str(args.lr) + '_' +\
-                              str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk)
+                              str(args.L)+'_'+ str(args.CNN)+'_' + str(args.maxk) + \
+                              '_fold_' + str(args.fold)
 
             #save checkpoint of model trained settings
-            save_ckp(checkpoint, checkpoint_name +'_'+str(epoch), 'log/')
+            # save_ckp(checkpoint, checkpoint_name +'_'+str(epoch), 'log/')
             #save metric values
             pkl.dump(ckp_metrics, open('log/'+ checkpoint_name+'.pkl', 'wb'))
 
-        if stopping_training.is_better(train_loss):
-            checkpoint = {
-                'epoch': epoch,
-                'state_dict': model.state_dict(),
-            }
+        # if stopping_training.is_better(train_loss):
+        #     checkpoint = {
+        #         'epoch': epoch,
+        #         'state_dict': model.state_dict(),
+        #     }
+        #
+        #     ckp_name = str(args.model) + '_' + str(args.lr) + '_' + \
+        #                       str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) \
+        #                                + '_' + str(epoch) + '_best_train'
+        #     stopping_training.store_model(checkpoint, ckp_name)
 
-            ckp_name = str(args.model) + '_' + str(args.lr) + '_' + \
-                              str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) \
-                                       + '_' + str(epoch) + '_best_train'
-            stopping_training.store_model(checkpoint, ckp_name)
-
-
-        if stopping_training.num_bad_epochs>=stopping_training.patience:
-            save_ckp(stopping_training.checkpoint, stopping_training.checkpoint_name, 'output/')
+        #
+        # if stopping_training.num_bad_epochs>=stopping_training.patience:
+        #     save_ckp(stopping_training.checkpoint, stopping_training.checkpoint_name, 'output/')
 
             # torch.save(model.state_dict(), output + 'model_epoch_' + str(epoch) + '_' + str(args.lr)+'.pth')
             # pkl.dump(loss_overall, open(output+'loss_train.pkl','wb'))
@@ -169,7 +176,7 @@ def train():
 
             ckp_name = str(args.model) + '_' + str(args.lr) + '_' + \
                               str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) \
-                                       + '_' + str(epoch) + '_best_test'
+                                       + '_' + str(epoch) +'_fold_' + str(args.fold)+ '_best_vl'
             stopping_test.store_model(checkpoint, ckp_name)
 
 
@@ -185,6 +192,8 @@ def test(idx_validation, epoch):
     model.eval()
     test_loss = 0.
     test_error = 0.
+    print_pos=True
+    print_neg=True
     # device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     for i_n,i in enumerate(idx_validation):
         x, y = DNA_dataset[i]
@@ -192,23 +201,22 @@ def test(idx_validation, epoch):
         if args.cuda:
             x, y = x.cuda(), y.cuda()
         x, y = Variable(x), Variable(y)
-        # x = x.to(device)
-        # y = y.squeeze(dim=0).to(device)
-        # print(x.shape, y.shape)
 
         loss, attention_weights = model.calculate_objective(x.float(), y)
         test_loss += loss.item()
         error, predicted_label = model.calculate_classification_error(x.float(), y)
         test_error += error
 
-        if i_n<1: #print info for 5 bags
+        if print_neg and y==0 or print_pos and y==1:
             bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
             instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
-
             print('\nTrue Bag Label, Predicted Bag Label: {}\n'
                   'Attention Weights: {} \n'.format(bag_level, instance_level))
-        # log_file.write('\nTrue Bag Label, Predicted Bag Label: {}\n'
-        #           'Attention Weights: {} \n'.format(bag_level, instance_level))
+            if y==1:
+                print_pos=False
+            else:
+                print_neg=False
+
 
     test_error /= len(idx_validation)
     test_loss /= len(idx_validation)    # * x.shape[0]
@@ -217,7 +225,7 @@ def test(idx_validation, epoch):
     # log_file.write('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     file_test = open(output+'test_lost_'+
                      str(args.model) + '_' + str(args.lr) + '_' +
-                     str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) +'.txt', 'a')
+                     str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) + '_fold_' + str(args.fold)+'.txt', 'a')
     file_test.write('Training epoch {} \n'.format(epoch))
     file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
     file_test.close()
