@@ -142,7 +142,6 @@ def train():
             checkpoint = {
                 'epoch': epoch,
                 'state_dict': model.state_dict(),
-                'optimizer': optimizer.state_dict(),
             }
 
             ckp_name = str(args.model) + '_' + str(args.lr) + '_' + \
@@ -166,7 +165,6 @@ def train():
             checkpoint = {
                 'epoch': epoch,
                 'state_dict': model.state_dict(),
-                'optimizer': optimizer.state_dict(),
             }
 
             ckp_name = str(args.model) + '_' + str(args.lr) + '_' + \
