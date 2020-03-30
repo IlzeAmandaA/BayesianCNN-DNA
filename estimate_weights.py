@@ -101,9 +101,6 @@ def validate():
                 error, predicted_label = model.calculate_classification_error(x.float(), y)
                 test_error += error
 
-                print('\n label {} \n'.format(y))
-                print('attnetion weights: \n')
-                print(str(attention_weights.cpu().data.numpy()))
 
                 if y==1:
                    attention_weight_pos.append(attention_weights)
@@ -111,17 +108,6 @@ def validate():
             epoch_attention = torch.stack(attention_weight_pos, dim=1).squeeze(0)
             mean_epoch_attention = (epoch_attention.sum(0)/epoch_attention.shape[0]).cpu().data.numpy()
 
-                #
-                #
-                # if i_n < 1:  # print info for 5 bags
-                #     bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
-                #     instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
-
-            #
-            # print('\nTrue Bag Label, Predicted Bag Label: {}\n'
-            #               'Attention Weights: {} \n'.format(bag_level, instance_level))
-                # log_file.write('\nTrue Bag Label, Predicted Bag Label: {}\n'
-                #           'Attention Weights: {} \n'.format(bag_level, instance_level))
 
             test_error /= len(idx_validation)
             test_loss /= len(idx_validation)  # * x.shape[0]

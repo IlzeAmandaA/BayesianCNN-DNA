@@ -6,6 +6,10 @@ from tqdm import tqdm
 
 look_up = {"A": 0, "G": 1, "T": 2, "C": 3}
 MAX_LENGHT = 98820 #change depending on data
+DATA_ORDER=['chrom5', 'chrom4', 'chrom16', 'chrom2', 'chrom14',
+            'chrom3', 'chrom11', 'chrom9', 'chrom17', 'chrom7',
+            'chrom12', 'chrom6', 'chrom13', 'chrom8', 'chrom15',
+            'chrom1', 'chrom0', 'chrom10']
 
 
 """ NOTE:
@@ -127,18 +131,13 @@ def set_up_data(filepath, n, print_boo = True):
         counter += 1
         genes, label = importData(file, to_write = False)
 
-        # set up the gene order according to the first file read
-        if idx_file==0:
-            gene_ids = list(genes.keys())
-            print('\n Gene order based on the first file read: {} \n'.format(file))
-            print(gene_ids)
 
         labels.append(label)
         if first_iteration:
-            data_tensor = set_up_tensors(genes, gene_ids).unsqueeze(dim = 0)
+            data_tensor = set_up_tensors(genes, DATA_ORDER).unsqueeze(dim = 0)
             first_iteration = False
         else:
-            data = set_up_tensors(genes, gene_ids).unsqueeze(dim = 0)
+            data = set_up_tensors(genes, DATA_ORDER).unsqueeze(dim = 0)
             data_tensor = torch.cat(([data_tensor, data]), dim = 0)
 
         #print(data_tensor.shape)
