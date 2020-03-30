@@ -75,6 +75,9 @@ optimizer = optim.Adam(model.parameters(), lr=args.lr)
 # stopping_training = EarlyStopping(patience=8)
 stopping_test = EarlyStopping(patience=8)
 
+print('Selected Model settings: \n')
+print('model:{}, lr:{}, L:{}, D:{}, CNN:{}, maxk:{}, fold:{} \n'.format(args.model, args.lr, args.L, args.D, args.CNN, args.maxk, args.fold))
+
 
 def train():
 
