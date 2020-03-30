@@ -12,7 +12,7 @@ class EarlyStopping():
     def is_better(self, metric):
         if self.best is None:
             self.best = metric
-            return False
+            return True
         if metric < self.best:
             self.num_bad_epochs = 0
             self.best = metric

@@ -73,7 +73,7 @@ if args.cuda:
 
 optimizer = optim.Adam(model.parameters(), lr=args.lr)
 # stopping_training = EarlyStopping(patience=8)
-stopping_test = EarlyStopping(patience=8)
+stopping_test = EarlyStopping()
 
 print('Selected Model settings: \n')
 print('model:{}, lr:{}, L:{}, D:{}, CNN:{}, maxk:{}, fold:{} \n'.format(args.model, args.lr, args.L, args.D, args.CNN, args.maxk, args.fold))
@@ -181,6 +181,7 @@ def train():
             ckp_name = str(args.model) + '_' + str(args.lr) + '_' + \
                               str(args.L) + '_' + str(args.CNN) + '_' + str(args.maxk) \
                                        + '_' + str(epoch) +'_fold_' + str(args.fold)+ '_best_vl'
+
             stopping_test.store_model(checkpoint, ckp_name)
 
 
