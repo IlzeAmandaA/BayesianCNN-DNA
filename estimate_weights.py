@@ -80,61 +80,62 @@ def validate():
     test_error = 0.
     pickle_attention = []
 
-    for epoch in range(1,11):
-        print('Epoch {}/{} \n'.format(epoch,10))
-        idx_train = DNA_dataset.get_random_shuffle(epoch)  # get a random shuffle for cross validation, do this K times
-        validation = int(len(idx_train) * 0.1)
-        idx_validation = idx_train[-validation:]
-        attention_weight_pos = []
+    with torch.no_grad():
+        for epoch in range(1,11):
+            print('Epoch {}/{} \n'.format(epoch,10))
+            idx_train = DNA_dataset.get_random_shuffle(epoch)  # get a random shuffle for cross validation, do this K times
+            validation = int(len(idx_train) * 0.1)
+            idx_validation = idx_train[-validation:]
+            attention_weight_pos = []
 
-        for i_n, i in enumerate(idx_validation):
-            x, y = DNA_dataset[i]
-            y = y.squeeze(dim=0)
+            for i_n, i in enumerate(idx_validation):
+                x, y = DNA_dataset[i]
+                y = y.squeeze(dim=0)
 
-            if args.cuda:
-                x, y = x.cuda(), y.cuda()
-            x, y = Variable(x), Variable(y)
+                if args.cuda:
+                    x, y = x.cuda(), y.cuda()
+                x, y = Variable(x), Variable(y)
 
-            loss, attention_weights = model.calculate_objective(x.float(), y)
-            test_loss += loss.item()
-            error, predicted_label = model.calculate_classification_error(x.float(), y)
-            test_error += error
+                loss, attention_weights = model.calculate_objective(x.float(), y)
+                test_loss += loss.item()
+                error, predicted_label = model.calculate_classification_error(x.float(), y)
+                test_error += error
 
 
-            if y==1:
-               attention_weight_pos.append(attention_weights)
+                if y==1:
+                   attention_weight_pos.append(attention_weights)
 
-        epoch_attention = torch.stack(attention_weight_pos, dim=1).squeeze(0)
-        mean_epoch_attention = (epoch_attention.sum(0)/epoch_attention.shape[0]).numpy()
+            epoch_attention = torch.stack(attention_weight_pos, dim=1).squeeze(0)
+            mean_epoch_attention = (epoch_attention.sum(0)/epoch_attention.shape[0]).numpy()
+
+                #
+                #
+                # if i_n < 1:  # print info for 5 bags
+                #     bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
+                #     instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
 
             #
-            #
-            # if i_n < 1:  # print info for 5 bags
-            #     bag_level = (y.cpu().data.numpy()[0], int(predicted_label.cpu().data.numpy()[0][0]))
-            #     instance_level = list(np.round(attention_weights.cpu().data.numpy()[0], decimals=3))
+            # print('\nTrue Bag Label, Predicted Bag Label: {}\n'
+            #               'Attention Weights: {} \n'.format(bag_level, instance_level))
+                # log_file.write('\nTrue Bag Label, Predicted Bag Label: {}\n'
+                #           'Attention Weights: {} \n'.format(bag_level, instance_level))
 
-        #
-        # print('\nTrue Bag Label, Predicted Bag Label: {}\n'
-        #               'Attention Weights: {} \n'.format(bag_level, instance_level))
-            # log_file.write('\nTrue Bag Label, Predicted Bag Label: {}\n'
-            #           'Attention Weights: {} \n'.format(bag_level, instance_level))
+            test_error /= len(idx_validation)
+            test_loss /= len(idx_validation)  # * x.shape[0]
+            pickle_attention.append(mean_epoch_attention)
 
-        test_error /= len(idx_validation)
-        test_loss /= len(idx_validation)  # * x.shape[0]
-        pickle_attention.append(mean_epoch_attention)
-
-        print('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
-        # log_file.write('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
-        file_test = open('output/'+'validation_' + args.filename + '.txt', 'a')
-        file_test.write('Training epoch {} \n'.format(epoch))
-        file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
-        file_test.write('Mean Attention Weights (label 1): \n')
-        file_test.write(mean_epoch_attention)
-        file_test.write('\n')
-        file_test.close()
+            print('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
+            # log_file.write('\nTest Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
+            file_test = open('output/'+'validation_' + args.filename + '.txt', 'a')
+            file_test.write('Training epoch {} \n'.format(epoch))
+            file_test.write('Test Set, Loss: {:.4f}, Test error: {:.4f} \n'.format(test_loss, test_error))
+            file_test.write('Mean Attention Weights (label 1): \n')
+            file_test.write(mean_epoch_attention)
+            file_test.write('\n')
+            file_test.close()
 
 
-    pkl.dump(pickle_attention, open('output/'+'attentions_'+ args.filename+'.pkl', 'wb'))
+        pkl.dump(pickle_attention, open('output/'+'attentions_'+ args.filename+'.pkl', 'wb'))
 
 
 
