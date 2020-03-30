@@ -8,11 +8,11 @@ from torch.autograd import Variable
 from torch import optim
 import argparse
 
-def load_ckp(checkpoint_fpath, model, optimizer):
-    checkpoint = torch.load(checkpoint_fpath)
+def load_ckp(checkpoint_fpath, model):
+    checkpoint = torch.load('output/best_models/' + checkpoint_fpath)
     model.load_state_dict(checkpoint['state_dict'])
-    optimizer.load_state_dict(checkpoint['optimizer'])
-    return model, optimizer, checkpoint['epoch']
+    # optimizer.load_state_dict(checkpoint['optimizer'])
+    return model, checkpoint['epoch']
 
 #defines arguments that can be passed to the model
 parser = argparse.ArgumentParser(description='Weight Matrix Estiamtio ')
@@ -51,12 +51,6 @@ assert args.filename != 'none' 'Filename missing'
 
 args.cuda = not args.no_cuda and torch.cuda.is_available()
 
-
-
-print('Loading the data \n')
-# log_file.write('Loading the data \n')
-DNA_dataset = Dataset(path='data_simulation', n_examples=args.dataN, print_boo=False) #max n_examples for sim_DAta 160
-
 print('Initialize Model \n')
 # log_file.write('Initialize Model \n')
 if args.model == 'attention':
@@ -65,12 +59,19 @@ if args.model == 'attention':
 elif args.model == 'attention_deep':
     model = AttentionNetworkDeep(args.L, args.D, args.maxk, args.CNN)
 
-optimizer = optim.Adam(model.parameters(), lr=args.lr)
+# optimizer = optim.Adam(model.parameters(), lr=args.lr)
 
 
-model, optimizer, epoch = load_ckp(args.filename + '.pt', model, optimizer)
+model, epoch = load_ckp(args.filename + '.pt', model)
 if args.cuda:
     model.cuda()
+
+
+print('Loading the data \n')
+# log_file.write('Loading the data \n')
+DNA_dataset = Dataset(path='data_simulation', n_examples=args.dataN, print_boo=False) #max n_examples for sim_DAta 160
+
+
 
 
 def validate():
