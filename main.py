@@ -83,6 +83,7 @@ def train():
 
     #get a shuffle of the data
     idx_train = DNA_dataset.get_random_shuffle(args.fold)
+    print('idx train {}'.format(idx_train))
     validation = int(len(idx_train) * 0.1)
     idx_validation = idx_train[-validation:]
     idx_train = idx_train[:len(idx_train) - validation]
