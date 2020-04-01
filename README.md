@@ -5,7 +5,7 @@ by Ilze Amanda Auzina (ilze.amanda.auzina@gmail.com) and Laurence Bont (laurence
 # Overview
 Pytorch implementation of Deep Multiple Instance Learning for Genomic sequence data
 
-#Installation 
+# Installation 
 Tested with python 3.5.2 with PyTorch 1.4 (CUDA 10.1), should work without cuda as well. 
 
 # Content 
