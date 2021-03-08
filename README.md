@@ -19,10 +19,11 @@ The core component of the model is a shallow MC-dropout CNN. Hence, we consider 
 # How to Use
 
 root directory
-- main.py : Trains a shallow MC-dropout CNN with the Adam optimization.  
+- train.py : Trains a shallow MC-dropout CNN with the Adam optimization. 
+- test.py : Returns the attention weights for the test set (see whether the sequence was identified) 
   
 code directory
-- modelV2.py: Containts the gated-attention network. Within this file you can find the dimensionalities of 
+- model.py: Containts the gated-attention network. Within this file you can find the dimensionalities of 
  the network, as well as its structure. The loss function is defined as corss-entropy loss (binary classification problem). 
 
 - read_data.py: accesses the txt files, in this file you must specify the maximum length of the genes as the padding will be performed accordingly (MAX_LEGNTH parameter), as well as the data order (DATA_ORDER parameter) to keep the data loading order correct across participants
