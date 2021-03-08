@@ -28,4 +28,6 @@ code directory
 
 - read_data.py: accesses the txt files, in this file you must specify the maximum length of the genes as the padding will be performed accordingly (MAX_LEGNTH parameter), as well as the data order (DATA_ORDER parameter) to keep the data loading order correct across participants
   
+# Data
+To replicate the 'fake' data used in the paper (section 4.1.1), please visit [repo](https://github.com/IlzeAmandaA/simDNAgen)
 
