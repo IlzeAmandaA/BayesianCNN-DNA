@@ -8,12 +8,20 @@ Pytorch implementation of Deep Multiple Instance Learning for Genomic sequence d
 # Installation 
 Tested with python 3.5.2 with PyTorch 1.4 (CUDA 10.1), should work without cuda as well. 
 
-# Content 
-The code can be run to identify relevant genes based on a subject-level label. At the moment simulation data is used stored in the folder data_simulation. If real life data is available, you can store it in folder data, and change the corresponding file path in the code. Important to note that the expected input file format is a .txt file, where each gene is stored on a new line and the data is organized as follows: geneid,sequnece,label
+# Abstract
+Many human diseases or health conditions have an underlying genetic component. In order to dis- cover them the standard procedure is to proceed from gene level up, which requires detailed gene annotation as a starting point. However, gene annotation is a very difficult task, which is not readily available. Therefore, we propose to re- define the problem via multiple instance learning (MIL) setting, which allows to use a person level label, thus avoiding the need for detailed gene annotation. We show the first proof-of-concept implementation on a simulation data set consist- ing of only 160 people. The novel application succeeds to identify the relevant genes despite the small data set size and the high variance in gene lengths utilized.
+
+For a complete explanation of the model and the findings, please read the `report.pdf`.
+
+# Model
+The core component of the model is a shallow MC-dropout CNN. Hence, we consider the DNA as a 1D sequence with 4 channels (ACGT). Furhtermore, the CNN is set as part for Multiple Instance Learning (MIL), where instead of having a single instance for a target variable, there is a bag of instances X = { x1, ..., xk } that are independent of each other. 
 
 # How to Use
-- main.py : Trains a shallow MC-dropout CNN with the Adam optimization. The best model is identified based on the loss obtained on the validation set and stored in the output folder. Furthermore, the loss and error obtained during training are also stored in the output folder for both validation and training set. Intermediate models that are saved during training are stored in log folder to allow to resume training at a later point. Lastly, the bags labels and instance labels are printed during the training process. 
+
+root directory
+- main.py : Trains a shallow MC-dropout CNN with the Adam optimization.  
   
+code directory
 - modelV2.py: Containts the gated-attention network. Within this file you can find the dimensionalities of 
  the network, as well as its structure. The loss function is defined as corss-entropy loss (binary classification problem). 
 
